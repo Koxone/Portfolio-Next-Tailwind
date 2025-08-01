@@ -3,6 +3,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import DonationsModal from '../Modals/DonationsModal';
+import localFont from 'next/font/local';
+
+const inter = localFont({
+  src: '../../Fonts/Inter.ttf',
+});
 
 export default function MainHeader() {
   const [showPayPal, setShowPayPal] = useState(false);
@@ -44,14 +49,16 @@ export default function MainHeader() {
 
   return (
     <>
-      <header className="flex h-16 w-full items-center border-b border-gray-800 bg-gray-900 px-5 py-8 md:p-8">
+      <header
+        className={`flex h-16 w-full items-center border-b border-gray-800 bg-gray-900 px-5 py-8 md:p-8 ${inter.className}`}
+      >
         <img
           className="mr-auto h-fit max-h-10 w-full max-w-9 cursor-pointer object-cover md:max-h-15 md:max-w-13"
           src="/logo.png"
           alt="logo icon"
         />
 
-        <div className="flex items-center gap-2 font-[Inter] text-xs text-white sm:gap-8 sm:text-base">
+        <div className="flex items-center gap-2 text-xs text-white sm:gap-8 sm:text-base">
           <a
             className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
             target="_blank"

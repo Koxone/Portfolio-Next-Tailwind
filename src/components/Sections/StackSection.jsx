@@ -35,7 +35,7 @@ export default function StackSection() {
         <ul className="flex flex-wrap justify-center gap-5">
           {renderItems([
             {
-              url: '/next.svg',
+              url: '/StackIcons/next.svg',
               tooltip: 'Next.js',
               border: 'border-white',
               text: 'text-white',
@@ -43,7 +43,15 @@ export default function StackSection() {
               hover: 'hover-glow-white scale-110',
             },
             {
-              url: '/react.svg',
+              url: '/StackIcons/js.png',
+              tooltip: 'Javascript',
+              border: 'border-amber-500',
+              text: 'text-amber-500',
+              bg: 'bg-amber-500/10',
+              hover: 'hover-glow-amber',
+            },
+            {
+              url: '/StackIcons/react.svg',
               tooltip: 'React',
               border: 'border-cyan-300',
               text: 'text-cyan-300',
@@ -51,7 +59,7 @@ export default function StackSection() {
               hover: 'hover-glow-cyan scale-110',
             },
             {
-              url: '/tailwind.svg',
+              url: '/StackIcons/tailwind.svg',
               tooltip: 'Tailwind',
               border: 'border-sky-400',
               text: 'text-sky-400',
@@ -70,7 +78,7 @@ export default function StackSection() {
         <ul className="flex flex-wrap justify-center gap-5">
           {renderItems([
             {
-              url: '/astro.png',
+              url: '/StackIcons/astro.png',
               tooltip: 'Astro',
               border: 'border-purple-400',
               text: 'text-purple-400',
@@ -78,7 +86,7 @@ export default function StackSection() {
               hover: 'hover-glow-purple',
             },
             {
-              url: '/react.svg',
+              url: '/StackIcons/react.svg',
               tooltip: 'React',
               border: 'border-cyan-400',
               text: 'text-cyan-400',
@@ -86,7 +94,7 @@ export default function StackSection() {
               hover: 'hover-glow-cyan scale-105',
             },
             {
-              url: '/tailwind.svg',
+              url: '/StackIcons/tailwind.svg',
               tooltip: 'Tailwind',
               border: 'border-sky-400',
               text: 'text-sky-400',
@@ -105,7 +113,7 @@ export default function StackSection() {
         <ul className="flex flex-wrap justify-center gap-5">
           {renderItems([
             {
-              url: '/html.png',
+              url: '/StackIcons/html.png',
               tooltip: 'HTML',
               border: 'border-orange-500',
               text: 'text-orange-500',
@@ -113,7 +121,7 @@ export default function StackSection() {
               hover: 'hover-glow-orange',
             },
             {
-              url: '/css.png',
+              url: '/StackIcons/css.png',
               tooltip: 'CSS',
               border: 'border-blue-500',
               text: 'text-blue-500',
@@ -121,15 +129,7 @@ export default function StackSection() {
               hover: 'hover-glow-blue',
             },
             {
-              url: '/js.png',
-              tooltip: 'JavaScript',
-              border: 'border-yellow-400',
-              text: 'text-yellow-400',
-              bg: 'bg-yellow-400/10',
-              hover: 'hover-glow-yellow',
-            },
-            {
-              url: '/vite.png',
+              url: '/StackIcons/vite.png',
               tooltip: 'Vite',
               border: 'border-purple-400',
               text: 'text-purple-400',
@@ -137,7 +137,7 @@ export default function StackSection() {
               hover: 'hover-glow-purple',
             },
             {
-              url: '/firebase.png',
+              url: '/StackIcons/firebase.png',
               tooltip: 'Firebase',
               border: 'border-amber-500',
               text: 'text-amber-500',
@@ -145,7 +145,7 @@ export default function StackSection() {
               hover: 'hover-glow-amber',
             },
             {
-              url: '/shopify.svg',
+              url: '/StackIcons/shopify.svg',
               tooltip: 'Shopify',
               border: 'border-emerald-400',
               text: 'text-emerald-400',
@@ -153,7 +153,7 @@ export default function StackSection() {
               hover: 'hover-glow-lime',
             },
             {
-              url: '/postman.svg',
+              url: '/StackIcons/postman.svg',
               tooltip: 'Postman',
               border: 'border-orange-400',
               text: 'text-orange-400',
@@ -161,7 +161,7 @@ export default function StackSection() {
               hover: 'hover-glow-orange',
             },
             {
-              url: '/i18.svg',
+              url: '/StackIcons/i18.svg',
               tooltip: 'i18Next',
               border: 'border-lime-400',
               text: 'text-lime-400',
@@ -169,7 +169,7 @@ export default function StackSection() {
               hover: 'hover-glow-lime',
             },
             {
-              url: '/figma.png',
+              url: '/StackIcons/figma.png',
               tooltip: 'Figma',
               border: 'border-pink-500',
               text: 'text-pink-500',
@@ -177,7 +177,23 @@ export default function StackSection() {
               hover: 'hover-glow-pink',
             },
             {
-              url: '/prettier.png',
+              url: '/StackIcons/FramerMotion.svg',
+              tooltip: 'Framer Motion',
+              border: 'border-purple-400',
+              text: 'text-purple-400',
+              bg: 'bg-purple-400/10',
+              hover: 'hover-glow-purple',
+            },
+            {
+              url: '/StackIcons/Shadcn-UI.svg',
+              tooltip: 'Shadcn/UI',
+              border: 'border-white',
+              text: 'text-white',
+              bg: 'bg-white/10',
+              hover: 'hover-glow-white scale-110',
+            },
+            {
+              url: '/StackIcons/prettier.png',
               tooltip: 'Prettier',
               border: 'border-indigo-400',
               text: 'text-indigo-400',
@@ -185,7 +201,7 @@ export default function StackSection() {
               hover: 'hover-glow-indigo',
             },
             {
-              url: '/git.png',
+              url: '/StackIcons/git.png',
               tooltip: 'Git',
               border: 'border-orange-600',
               text: 'text-orange-600',
@@ -193,7 +209,7 @@ export default function StackSection() {
               hover: 'hover-glow-orange',
             },
             {
-              url: '/github.svg',
+              url: '/StackIcons/github.svg',
               tooltip: 'GitHub',
               border: 'border-neutral-500',
               text: 'text-neutral-200',
@@ -201,7 +217,7 @@ export default function StackSection() {
               hover: 'hover-glow-white',
             },
             {
-              url: '/linux.png',
+              url: '/StackIcons/linux.png',
               tooltip: 'Linux',
               border: 'border-yellow-500',
               text: 'text-yellow-500',
@@ -209,15 +225,7 @@ export default function StackSection() {
               hover: 'hover-glow-yellow',
             },
             {
-              url: '/vscode.png',
-              tooltip: 'VS Code',
-              border: 'border-indigo-500',
-              text: 'text-indigo-500',
-              bg: 'bg-indigo-500/10',
-              hover: 'hover-glow-indigo',
-            },
-            {
-              url: '/npm.png',
+              url: '/StackIcons/npm.png',
               tooltip: 'NPM',
               border: 'border-red-500',
               text: 'text-red-500',
@@ -225,7 +233,7 @@ export default function StackSection() {
               hover: 'hover-glow-red',
             },
             {
-              url: '/vercel.svg',
+              url: '/StackIcons/vercel.svg',
               tooltip: 'Vercel',
               border: 'border-neutral-400',
               text: 'text-neutral-300',
