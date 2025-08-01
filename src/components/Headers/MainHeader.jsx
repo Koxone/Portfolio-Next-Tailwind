@@ -4,6 +4,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import DonationsModal from '../Modals/DonationsModal';
 import localFont from 'next/font/local';
+import { useTranslation } from 'react-i18next';
+import i18n from '@/lib/i18n';
 
 const inter = localFont({
   src: '../../Fonts/Inter.ttf',
@@ -12,6 +14,11 @@ const inter = localFont({
 export default function MainHeader() {
   const [showPayPal, setShowPayPal] = useState(false);
   const paypalRef = useRef(null);
+  const { i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en');
+  };
 
   useEffect(() => {
     if (showPayPal && paypalRef.current) {
@@ -92,6 +99,14 @@ export default function MainHeader() {
           >
             Donate
           </span>
+
+          {/* Language Button */}
+          <button
+            onClick={toggleLanguage}
+            className="cursor-pointer rounded-md border border-gray-500 px-3 py-1 text-xs font-medium transition-colors duration-200 hover:border-yellow-400 hover:text-yellow-400 sm:text-sm"
+          >
+            {i18n.language === 'en' ? 'ES' : 'EN'}
+          </button>
         </div>
       </header>
 

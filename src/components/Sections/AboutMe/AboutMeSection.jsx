@@ -1,56 +1,59 @@
+'use client';
+
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function AboutMeSection() {
+  const { t } = useTranslation();
+
   return (
     <div className="relative flex h-full items-center">
-      <div className="group relative flex h-fit w-full transform flex-col items-center justify-center gap-4 overflow-hidden rounded-2xl border border-orange-400
-       bg-white/10 p-8 text-left leading-relaxed text-neutral-200 transition-all duration-500 ease-in-out hover:scale-[1.02] 
-       hover:shadow-[0_0_30px_rgba(251,146,60,0.3)] sm:border-neutral-500 sm:hover:border-orange-400 sm:max-w-[575px] md:max-h-fit md:max-w-[450px] md:text-sm lg:max-h-full
-        lg:max-w-lg lg:text-base">
+      <div className="group relative flex h-fit w-full transform flex-col items-center justify-center gap-4 overflow-hidden rounded-2xl border border-orange-400 bg-white/10 p-8 text-left leading-relaxed text-neutral-200 transition-all duration-500 ease-in-out hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(251,146,60,0.3)] sm:max-w-[575px] sm:border-neutral-500 sm:hover:border-orange-400 md:max-h-fit md:max-w-[450px] md:text-sm lg:max-h-full lg:max-w-lg lg:text-base">
         <p>
-          Hi there! I'm{' '}
-          <span className="font-semibold text-[#FFD700]">Carlos De Leon</span>,
-          a{' '}
+          {t('aboutMeSection.hi')}{' '}
           <span className="font-semibold text-[#FFD700]">
-            Software Engineering student
-          </span>{' '}
-          currently in a{' '}
-          <span className="font-semibold text-[#FFD700]">
-            development internship
-          </span>{' '}
-          at a tourism tech company serving{' '}
-          <span className="font-semibold text-[#FFD700]">
-            Mexico and the Dominican Republic
+            {t('aboutMeSection.name')}
           </span>
-          . Transitioning from{' '}
+          , {t('aboutMeSection.a')}{' '}
           <span className="font-semibold text-[#FFD700]">
-            10+ years as a Restaurant COO and General Manager
-          </span>
-          , where I led{' '}
-          <span className="font-semibold text-[#FFD700]">
-            teams of 100+ people
+            {t('aboutMeSection.student')}
           </span>{' '}
-          and managed operations with{' '}
+          {t('aboutMeSection.currently')}{' '}
           <span className="font-semibold text-[#FFD700]">
-            $1.5M USD monthly revenue at 30% profit margins
+            {t('aboutMeSection.internship')}
+          </span>{' '}
+          {t('aboutMeSection.atCompany')}{' '}
+          <span className="font-semibold text-[#FFD700]">
+            {t('aboutMeSection.company')}
+          </span>
+          . {t('aboutMeSection.transition')}{' '}
+          <span className="font-semibold text-[#FFD700]">
+            {t('aboutMeSection.experience')}
+          </span>
+          , {t('aboutMeSection.where')}{' '}
+          <span className="font-semibold text-[#FFD700]">
+            {t('aboutMeSection.teams')}
+          </span>{' '}
+          {t('aboutMeSection.andManaged')}{' '}
+          <span className="font-semibold text-[#FFD700]">
+            {t('aboutMeSection.operations')}
           </span>
           .
           <br />
           <br />
-          Today, I'm building responsive web applications with{' '}
+          {t('aboutMeSection.today')}{' '}
           <span className="font-semibold text-[#FFD700]">
-            React, Next.js, Astro, Tailwind CSS, and Firebase
+            {t('aboutMeSection.stack')}
           </span>
-          , focusing on{' '}
+          , {t('aboutMeSection.focusing')}{' '}
           <span className="font-semibold text-[#FFD700]">
-            clean code and intuitive UI/UX
+            {t('aboutMeSection.focus')}
           </span>
-          . My operations background brings proven{' '}
+          . {t('aboutMeSection.background')}{' '}
           <span className="font-semibold text-[#FFD700]">
-            project management, data-driven decision making, and high-pressure
-            performance skills
+            {t('aboutMeSection.skills')}
           </span>{' '}
-          to every technical challenge I tackle.
+          {t('aboutMeSection.end')}
         </p>
       </div>
     </div>
