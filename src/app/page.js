@@ -6,7 +6,7 @@ import StackSection from '@/components/Sections/StackSection';
 
 export default function Home() {
   return (
-    <main className="flex w-full max-w-[1200px] flex-col items-center justify-center gap-30 justify-self-center p-10 pt-5">
+    <main className="flex w-full max-w-[1200px] flex-col items-center justify-center gap-14 justify-self-center p-10 pt-5 md:gap-16">
       <HomeContainer />
       <ExperienceContainer />
       <StackSection />

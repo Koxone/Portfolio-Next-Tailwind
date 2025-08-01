@@ -3,10 +3,22 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import DonationsModal from '../Modals/DonationsModal';
+import localFont from 'next/font/local';
+import { useTranslation } from 'react-i18next';
+import i18n from '@/lib/i18n';
+
+const inter = localFont({
+  src: '../../Fonts/Inter.ttf',
+});
 
 export default function MainHeader() {
   const [showPayPal, setShowPayPal] = useState(false);
   const paypalRef = useRef(null);
+  const { i18n, t } = useTranslation();
+
+  const toggleLanguage = () => {
+    i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en');
+  };
 
   useEffect(() => {
     if (showPayPal && paypalRef.current) {
@@ -44,20 +56,22 @@ export default function MainHeader() {
 
   return (
     <>
-      <header className="flex h-16 w-full items-center border-b border-gray-800 bg-gray-900 px-5 py-8 md:p-8">
+      <header
+        className={`flex h-16 w-full items-center border-b border-gray-800 bg-gray-900 px-5 py-8 md:p-8 ${inter.className}`}
+      >
         <img
           className="mr-auto h-fit max-h-10 w-full max-w-9 cursor-pointer object-cover md:max-h-15 md:max-w-13"
           src="/logo.png"
           alt="logo icon"
         />
 
-        <div className="flex items-center gap-2 font-[Inter] text-xs text-white sm:gap-8 sm:text-base">
+        <div className="flex items-center gap-2 text-xs text-white sm:gap-8 sm:text-base">
           <a
             className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
             target="_blank"
             href="https://resume.koxland.dev/"
           >
-            Resume
+            {t('header.resume')}
           </a>
           <a
             className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
@@ -67,7 +81,7 @@ export default function MainHeader() {
             Github
           </a>
           <a
-            className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
+            className="hidden transition-transform duration-200 hover:scale-125 hover:text-[#FFD700] md:block"
             target="_blank"
             href="https://www.youtube.com/@KoxDeveloper"
           >
@@ -80,11 +94,20 @@ export default function MainHeader() {
             Contact
           </a>
           <span
-            className="cursor-pointer transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
+            className="hidden cursor-pointer transition-transform duration-200 hover:scale-125 hover:text-[#FFD700] md:block"
             onClick={() => setShowPayPal(true)}
           >
             Donate
           </span>
+
+          {/* Language Button */}
+          <button
+            onClick={toggleLanguage}
+            className="flex cursor-pointer items-center gap-1 rounded-md border border-gray-500 px-3 py-1 text-xs font-medium text-[#FFD700] transition-colors duration-200 hover:border-yellow-400 hover:text-yellow-400 sm:text-sm"
+          >
+            {i18n.language === 'en' ? 'EN' : 'ES'}
+            <img src="/StackIcons/LanguageIcon.svg" alt="" />
+          </button>
         </div>
       </header>
 
