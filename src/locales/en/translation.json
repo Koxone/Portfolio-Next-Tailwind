@@ -5,6 +5,14 @@
   "resumeButton": {
     "button": "Download Resume"
   },
+  "header": {
+    "resume": "Resume"
+  },
+  "stack": {
+    "main": "Mainly working with:",
+    "also": "Also building with",
+    "tools": "Tools & Integrations"
+  },
   "aboutMeSection": {
     "hi": "Hi there! I'm",
     "name": "Carlos De Leon",

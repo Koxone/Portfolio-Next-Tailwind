@@ -5,6 +5,14 @@
   "resumeButton": {
     "button": "Descargar CV"
   },
+  "header": {
+    "resume": "Curriculum"
+  },
+  "stack": {
+    "main": "Trabajo principalmente con",
+    "also": "También construyo con",
+    "tools": "Herramientas e integraciones"
+  },
   "aboutMeSection": {
     "hi": "¡Hola! Soy",
     "name": "Carlos De Leon",

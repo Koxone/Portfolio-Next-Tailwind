@@ -1,6 +1,11 @@
+'use client';
+
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function StackSection() {
+  const { t } = useTranslation();
+
   const renderItems = (items) =>
     items.map((item, i) => (
       <li
@@ -30,9 +35,9 @@ export default function StackSection() {
       </div>
 
       {/* MAIN STACK */}
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-3">
         <h3 className="text-lg font-semibold text-[#c2c6da]">
-          Mainly working with:
+          {t("stack.main")}
         </h3>
         <ul className="flex flex-wrap justify-center gap-5">
           {renderItems([
@@ -73,9 +78,9 @@ export default function StackSection() {
       </div>
 
       {/* SECONDARY STACK */}
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-3">
         <h3 className="text-lg font-semibold text-[#c2c6da]">
-          Also building with
+          {t("stack.also")}
         </h3>
         <ul className="flex flex-wrap justify-center gap-5">
           {renderItems([
@@ -108,9 +113,9 @@ export default function StackSection() {
       </div>
 
       {/* TOOLS & INTEGRATIONS */}
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-3">
         <h3 className="text-lg font-semibold text-[#c2c6da]">
-          Tools & Integrations
+          {t("stack.tools")}
         </h3>
         <ul className="flex flex-wrap justify-center gap-5">
           {renderItems([

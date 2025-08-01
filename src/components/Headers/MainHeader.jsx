@@ -14,7 +14,7 @@ const inter = localFont({
 export default function MainHeader() {
   const [showPayPal, setShowPayPal] = useState(false);
   const paypalRef = useRef(null);
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const toggleLanguage = () => {
     i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en');
@@ -71,7 +71,7 @@ export default function MainHeader() {
             target="_blank"
             href="https://resume.koxland.dev/"
           >
-            Resume
+            {t("header.resume")}
           </a>
           <a
             className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
