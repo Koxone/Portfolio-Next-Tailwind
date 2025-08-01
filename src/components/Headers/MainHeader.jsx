@@ -71,7 +71,7 @@ export default function MainHeader() {
             target="_blank"
             href="https://resume.koxland.dev/"
           >
-            {t("header.resume")}
+            {t('header.resume')}
           </a>
           <a
             className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
@@ -81,7 +81,7 @@ export default function MainHeader() {
             Github
           </a>
           <a
-            className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
+            className="hidden transition-transform duration-200 hover:scale-125 hover:text-[#FFD700] md:block"
             target="_blank"
             href="https://www.youtube.com/@KoxDeveloper"
           >
@@ -94,7 +94,7 @@ export default function MainHeader() {
             Contact
           </a>
           <span
-            className="cursor-pointer transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
+            className="hidden cursor-pointer transition-transform duration-200 hover:scale-125 hover:text-[#FFD700] md:block"
             onClick={() => setShowPayPal(true)}
           >
             Donate
