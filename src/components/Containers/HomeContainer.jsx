@@ -10,7 +10,7 @@ function HomeContainer() {
       <MainTitleContainer />
       <div className="gap- grid grid-cols-1 justify-evenly">
         <SocialLinks />
-        <div className="flex w-full max-w-[850px] items-center justify-evenly gap-10 lg:justify-self-center">
+        <div className="w-full max-w-[850px] items-center justify-evenly gap-10 sm:grid md:flex lg:justify-self-center">
           <Avatar />
           <AboutMeSection />
         </div>

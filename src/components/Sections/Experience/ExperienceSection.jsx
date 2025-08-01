@@ -6,7 +6,7 @@ export default function ExperienceSection() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <section className="max-w- mx-auto flex flex-col items-center justify-center gap-8">
+    <section className=" sm:max-w-[575px] md:max-w-full mx-auto flex flex-col items-center justify-center gap-8">
       <div>
         <h2 className="mb-2 text-center text-4xl font-bold text-[#c2c6da]">
           Experience
