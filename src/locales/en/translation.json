@@ -1,4 +1,10 @@
 {
+  "subtitle": {
+    "text": "Specializing in React, Next.js & Firebase integrations"
+  },
+  "resumeButton": {
+    "button": "Download Resume"
+  },
   "aboutMeSection": {
     "hi": "Hi there! I'm",
     "name": "Carlos De Leon",

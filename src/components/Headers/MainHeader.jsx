@@ -103,9 +103,10 @@ export default function MainHeader() {
           {/* Language Button */}
           <button
             onClick={toggleLanguage}
-            className="cursor-pointer rounded-md border border-gray-500 px-3 py-1 text-xs font-medium transition-colors duration-200 hover:border-yellow-400 hover:text-yellow-400 sm:text-sm"
+            className="flex cursor-pointer items-center gap-1 rounded-md border border-gray-500 px-3 py-1 text-xs font-medium text-[#FFD700] transition-colors duration-200 hover:border-yellow-400 hover:text-yellow-400 sm:text-sm"
           >
-            {i18n.language === 'en' ? 'ES' : 'EN'}
+            {i18n.language === 'en' ? 'EN' : 'ES'}
+            <img src="/StackIcons/LanguageIcon.svg" alt="" />
           </button>
         </div>
       </header>

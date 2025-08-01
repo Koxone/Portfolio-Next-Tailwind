@@ -1,14 +1,14 @@
-"use client";
-import { useState, useEffect } from "react";
+'use client';
+import { useState, useEffect } from 'react';
 
 export default function MatrixText({
-  text = "Software Engineer... In the making!",
-  className = "",
+  text = 'Frontend Engineer',
+  className = '',
   totalDuration = 3000, // total duration in ms
   flickerDuration = 100, // flicker time per letter
 }) {
   const [letters, setLetters] = useState(
-    text.split("").map((char) => ({
+    text.split('').map((char) => ({
       originalChar: char,
       currentChar: char,
       isAnimating: false,
@@ -17,7 +17,7 @@ export default function MatrixText({
 
   useEffect(() => {
     const nonSpaceIndices = letters
-      .map((l, idx) => (l.originalChar !== " " ? idx : null))
+      .map((l, idx) => (l.originalChar !== ' ' ? idx : null))
       .filter((idx) => idx !== null);
 
     const letterInterval = totalDuration / nonSpaceIndices.length;
@@ -33,7 +33,7 @@ export default function MatrixText({
         const updated = [...prev];
         updated[idx] = {
           ...updated[idx],
-          currentChar: Math.random() > 0.5 ? "1" : "0",
+          currentChar: Math.random() > 0.5 ? '1' : '0',
           isAnimating: true,
         };
         return updated;
@@ -61,17 +61,15 @@ export default function MatrixText({
 
   return (
     <div
-      className={`text-xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl 
-      text-transparent bg-clip-text bg-gradient-to-r from-[#F76927] to-[#Fdfa29] text-center 
-      font-mono leading-snug whitespace-pre-wrap ${className}`}
+      className={`-mb-2 bg-gradient-to-r from-[#F76927] to-[#Fdfa29] bg-clip-text text-center font-mono text-xl font-semibold whitespace-pre-wrap text-transparent sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl ${className}`}
     >
       {letters.map((letter, idx) => (
         <span
           key={idx}
           style={{
-            color: letter.isAnimating ? "#00ff00" : "",
-            textShadow: letter.isAnimating ? "0 0 8px #00ff00" : "",
-            transition: "color 0.1s, text-shadow 0.1s",
+            color: letter.isAnimating ? '#00ff00' : '',
+            textShadow: letter.isAnimating ? '0 0 8px #00ff00' : '',
+            transition: 'color 0.1s, text-shadow 0.1s',
           }}
         >
           {letter.currentChar}

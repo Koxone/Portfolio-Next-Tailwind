@@ -31,7 +31,9 @@ export default function StackSection() {
 
       {/* MAIN STACK */}
       <div className="flex flex-col items-center gap-2">
-        <h3 className="text-lg font-semibold text-[#c2c6da]">Main Stack</h3>
+        <h3 className="text-lg font-semibold text-[#c2c6da]">
+          Mainly working with:
+        </h3>
         <ul className="flex flex-wrap justify-center gap-5">
           {renderItems([
             {
@@ -73,7 +75,7 @@ export default function StackSection() {
       {/* SECONDARY STACK */}
       <div className="flex flex-col items-center gap-2">
         <h3 className="text-lg font-semibold text-[#c2c6da]">
-          Secondary Stack
+          Also building with
         </h3>
         <ul className="flex flex-wrap justify-center gap-5">
           {renderItems([

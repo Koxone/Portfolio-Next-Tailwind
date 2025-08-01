@@ -1,4 +1,10 @@
 {
+  "subtitle": {
+    "text": "Especializado en integraciones con React, Next.js y Firebase"
+  },
+  "resumeButton": {
+    "button": "Descargar CV"
+  },
   "aboutMeSection": {
     "hi": "¡Hola! Soy",
     "name": "Carlos De Leon",
@@ -22,7 +28,7 @@
     "skills": "gestión de proyectos, toma de decisiones basada en datos y habilidades de alto rendimiento bajo presión",
     "end": "a cada reto técnico que enfrento."
   },
-    "experienceSection": {
+  "experienceSection": {
     "title": "Experiencia",
     "role": "Desarrollador Frontend",
     "company": "Tourism Tech Solutions • México y República Dominicana",

@@ -2,7 +2,7 @@ import React from 'react';
 import MainTitleContainer from './MainTitleContainer';
 import Avatar from '../Avatar/Avatar';
 import AboutMeSection from '../Sections/AboutMe/AboutMeSection';
-import SocialLinks from '../Social/SocialLinks';
+import SocialLinks from '../Sections/Social/SocialLinks';
 
 function HomeContainer() {
   return (
