@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Kox Portfolio – Developer Portfolio Built with Next.js and Tailwind CSS
 
-## Getting Started
+**Kox Portfolio** is a clean, modern, and fully responsive developer portfolio built with **Next.js 15** and **Tailwind CSS v4**.  
+It features smooth animations, interactive sections, and showcases real-world projects with live demos and GitHub links.
 
-First, run the development server:
+---
 
-```bash
+## 👤 About
+
+Hi! I'm **Carlos De Leon**, a passionate software engineering student and aspiring frontend developer.  
+This portfolio represents my journey in **full-stack web development**, showcasing projects built with **Next.js, React, Firebase, and Shopify API**.
+
+I enjoy creating **scalable, production-ready applications** with clean code, intuitive UI/UX, and modern development practices.
+
+---
+
+## ✨ Features
+
+✅ **Responsive Design** – Fully optimized for desktop and mobile devices  
+🎨 **Modern UI with Tailwind CSS v4** – Utility-first, clean, and consistent styling  
+🎥 **Framer Motion Animations** – Smooth page transitions and micro-interactions  
+💼 **Project Cards with Live Demos & Source Code** – Displays real projects from my GitHub  
+🌍 **Multi-language Support (i18n)** – English and Spanish translations  
+🚀 **SEO-Optimized and Deployed on Vercel**
+
+---
+
+## 💻 Tech Stack
+
+- **Next.js 15** – React framework with hybrid rendering (SSR/SSG)
+- **Tailwind CSS v4** – Utility-first styling
+- **React 19** – Component-based UI
+- **Firebase** – Used in featured projects for authentication & database
+- **Shopify API** – Real-time eCommerce integration in FitWorldShop
+
+---
+
+## 📁 Project Structure
+
+\`\`\`
+project-root/
+├── public/ # Static assets (images, icons)
+├── src/
+│ ├── app/ # Next.js App Router structure
+│ ├── components/ # Reusable UI components
+│ ├── data/ # JSON data for projects
+│ ├── styles/ # Global styles
+│ └── lib/ # Utility functions
+├── next.config.mjs # Next.js configuration
+└── package.json # Project dependencies
+\`\`\`
+
+---
+
+## 🧪 Featured Projects
+
+🔹 **FitWorldShop (FWS)** – Headless eCommerce with Next.js, Shopify API, and Firebase  
+🔹 **Sacbe Tours** – Modern tour booking platform with real-time availability  
+🔹 **Coupon Generator** – API-based digital coupon platform with Wallet integration
+
+---
+
+## 🌐 Live Demo
+
+🔗 [View Portfolio Live](https://koxland.dev/)
+
+---
+
+## 🛠️ Setup & Installation
+
+\`\`\`bash
+
+# Clone the repository
+
+git clone https://github.com/Koxone/Portfolio-Next-Tailwind.git
+
+# Navigate to the project folder
+
+cd Portfolio-Next-Tailwind
+
+# Install dependencies
+
+npm install
+
+# Run in development mode
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📄 License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is licensed under the **MIT License**.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+💻 Developed by [Koxone](https://github.com/Koxone)  
+🎨 Built with **Next.js 15**, **Tailwind CSS v4**, and ❤️
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🙌 Thanks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thanks to the open-source community for the amazing tools and libraries that made this portfolio possible!
