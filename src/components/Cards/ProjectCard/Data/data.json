@@ -1,0 +1,76 @@
+{
+  "projects": {
+    "fws": {
+      "titleKey": "projects.fws.title",
+      "descriptionKey": "projects.fws.description",
+      "url": "https://fitworldshop.com",
+      "urlGit": "https://github.com/Koxone/FitWorldShop-Ecommerce-Next-Tailwind-Shopify-API",
+      "image": "/fws/1.webp",
+      "featured": true,
+      "completed": true,
+      "active": true,
+      "updated": "projects.fws.updated",
+      "date": "projects.fws.date",
+      "lastUpdated": "2025-08-01",
+      "typeKey": "projects.fws.type",
+      "statusKey": "projects.fws.status",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Tailwind",
+        "Firebase",
+        "Shopify API",
+        "Framer",
+        "i18"
+      ],
+      "tags": ["FullStack", "PWA", "Ecommerce"]
+    },
+    "sacbe": {
+      "titleKey": "projects.sacbe.title",
+      "descriptionKey": "projects.sacbe.description",
+      "url": "https://tours.koxland.dev/",
+      "urlGit": "https://github.com/Koxone/Sacbe-Tours-Next-React-Tailwind",
+      "image": "/tours/2.webp",
+      "featured": true,
+      "completed": true,
+      "active": true,
+      "updated": "projects.sacbe.updated",
+      "date": "projects.sacbe.date",
+      "lastUpdated": "2025-08-01",
+      "typeKey": "projects.sacbe.type",
+      "statusKey": "projects.sacbe.status",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Tailwind",
+        "Rest API",
+        "Bookun API",
+        "i18"
+      ],
+      "tags": ["WebApp", "Booking", "Tours"]
+    },
+    "couponGenerator": {
+      "titleKey": "projects.couponGenerator.title",
+      "descriptionKey": "projects.couponGenerator.description",
+      "url": "https://discounts.sacbetransfers.com/",
+      "urlGit": "https://github.com/Koxone/Sacbe-Coupon-Generator-React-Tailwind",
+      "image": "/coupons/2.webp",
+      "featured": true,
+      "completed": true,
+      "active": true,
+      "updated": "projects.couponGenerator.updated",
+      "date": "projects.couponGenerator.date",
+      "lastUpdated": "2025-08-01",
+      "typeKey": "projects.couponGenerator.type",
+      "statusKey": "projects.couponGenerator.status",
+      "technologies": [
+        "React",
+        "Tailwind",
+        "API",
+        "Google Wallet",
+        "Apple Wallet"
+      ],
+      "tags": ["WebApp", "Coupons", "API Integration"]
+    }
+  }
+}
