@@ -26,7 +26,7 @@
         "Framer",
         "i18"
       ],
-      "tags": ["FullStack", "PWA", "Ecommerce"],
+      "tags": ["FullStack", "SPA", "PWA", "Ecommerce"],
       "teamSize": "1",
       "overview": "projects.fws.overview",
       "features": "projects.fws.features",
