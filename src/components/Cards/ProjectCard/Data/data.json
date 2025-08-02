@@ -4,6 +4,7 @@
       "titleKey": "projects.fws.title",
       "descriptionKey": "projects.fws.description",
       "url": "https://fitworldshop.com",
+      "urlGit": "https://github.com/Koxone/FitWorldShop-Ecommerce-Next-Tailwind-Shopify-API",
       "image": "/fws/1.webp",
       "featured": true,
       "completed": true,
@@ -25,7 +26,8 @@
     "sacbe": {
       "titleKey": "projects.sacbe.title",
       "descriptionKey": "projects.sacbe.description",
-      "url": "https://sacbetransfers.com",
+      "url": "https://tours.koxland.dev/",
+      "urlGit": "https://github.com/Koxone/Sacbe-Tours-Next-React-Tailwind",
       "image": "/tours/2.webp",
       "featured": true,
       "completed": true,
@@ -47,7 +49,8 @@
     "couponGenerator": {
       "titleKey": "projects.couponGenerator.title",
       "descriptionKey": "projects.couponGenerator.description",
-      "url": "https://github.com/Koxone/Sacbe-Coupon-Generator-React-Tailwind",
+      "url": "https://discounts.sacbetransfers.com/",
+      "urlGit": "https://github.com/Koxone/Sacbe-Coupon-Generator-React-Tailwind",
       "image": "/coupons/2.webp",
       "featured": true,
       "completed": true,

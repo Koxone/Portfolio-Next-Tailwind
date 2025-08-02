@@ -15,7 +15,7 @@ export default function ProjectCard({ projectKey }) {
   const { t } = useTranslation();
   const project = data.projects[projectKey];
 
-  if (!project) return null; 
+  if (!project) return null;
 
   return (
     <div className="group relative max-w-[360px]">
@@ -31,7 +31,11 @@ export default function ProjectCard({ projectKey }) {
         <StateBadge completed={project.completed} />
 
         {/* Image Section */}
-        <ProjectImage src={project.image} url={project.url} />
+        <ProjectImage
+          src={project.image}
+          url={project.url}
+          urlGit={project.urlGit}
+        />
 
         {/* Card Content */}
         <div className="space-y-6 p-6 text-white">
