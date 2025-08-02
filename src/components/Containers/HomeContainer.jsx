@@ -13,7 +13,7 @@ function HomeContainer() {
       <MainTitleContainer />
       <div className="gap- grid grid-cols-1 justify-evenly">
         <SocialLinks />
-        <div className="flex w-full max-w-[850px] flex-col items-center justify-center sm:grid md:flex md:gap-10 lg:justify-self-center">
+        <div className="flex w-full max-w-[850px] flex-col items-center justify-center sm:grid md:flex md:flex-row md:gap-10 lg:justify-self-center">
           <Avatar />
           <AboutMeSection />
         </div>
