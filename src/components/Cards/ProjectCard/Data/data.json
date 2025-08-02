@@ -19,7 +19,9 @@
         "React",
         "Tailwind",
         "Firebase",
-        "Shopify API"
+        "Shopify API",
+        "Framer",
+        "i18"
       ],
       "tags": ["FullStack", "PWA", "Ecommerce"]
     },
@@ -42,7 +44,8 @@
         "React",
         "Tailwind",
         "Rest API",
-        "Bookun API"
+        "Bookun API",
+        "i18"
       ],
       "tags": ["WebApp", "Booking", "Tours"]
     },
