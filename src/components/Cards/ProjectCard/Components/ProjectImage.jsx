@@ -1,6 +1,11 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
 import React from 'react';
 
-function ProjectImage({ src, url, urlGit }) {
+function ProjectImage({ src, urlGit, id }) {
+  const router = useRouter();
+
   return (
     <div className="relative h-72 overflow-hidden">
       {/* Imagen */}
@@ -12,10 +17,9 @@ function ProjectImage({ src, url, urlGit }) {
 
       {/* Contenedor del botón */}
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-        {/* View Project Button */}
-        <a
-          href={url}
-          className="flex items-center gap-3 rounded-2xl border border-orange-400 bg-purple-900/90 px-8 py-4 shadow-lg transition-colors duration-200 group-hover:border-orange-300 hover:bg-purple-950/90"
+        <button
+          onClick={() => router.push(`/project/${id}`)}
+          className="flex items-center gap-3 rounded-2xl cursor-pointer border border-orange-400 bg-purple-900/90 px-8 py-4 shadow-lg transition-colors duration-200 group-hover:border-orange-300 hover:bg-purple-950/90"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +53,8 @@ function ProjectImage({ src, url, urlGit }) {
             <path d="M7 7h10v10" />
             <path d="M7 17 17 7" />
           </svg>
-        </a>
+        </button>
+
         {/* View Code Button */}
         <a
           href={urlGit}

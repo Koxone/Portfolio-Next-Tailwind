@@ -19,10 +19,10 @@ export default function ProjectCard({ projectKey }) {
 
   return (
     <div className="group relative max-w-[360px]">
-      <div className="from-card/80 via-card/60 to-card/40 hover:shadow-primary/10 group-hover:bg-card/90 relative h-full cursor-pointer overflow-hidden rounded-xl border border-orange-400/50 bg-gradient-to-br shadow backdrop-blur-xl transition-all duration-500 ease-in-out hover:scale-[1.02] hover:border-orange-400 hover:shadow-2xl hover:shadow-[0_0_30px_rgba(251,146,60,0.3)]">
+      <div className="relative h-full cursor-pointer overflow-hidden rounded-xl border border-orange-400/50 backdrop-blur-xl transition-all duration-500 ease-in-out hover:scale-[1.02] hover:border-orange-400 hover:shadow-2xl hover:shadow-[0_0_30px_rgba(251,146,60,0.3)]">
         <span className="animate-spark absolute z-20 hidden h-2 w-2 rounded-full opacity-100 group-hover:block hover:bg-orange-400"></span>
 
-        <div className="from-primary/5 to-accent/5 absolute inset-0 bg-gradient-to-br via-transparent opacity-0 transition-opacity duration-700 group-hover:opacity-100" />
+        <div className="absolute inset-0 bg-gradient-to-br via-transparent opacity-0 transition-opacity duration-700 group-hover:opacity-100" />
 
         {/* Featured Badge */}
         <FeatureBadge featured={project.featured} />
@@ -35,6 +35,7 @@ export default function ProjectCard({ projectKey }) {
           src={project.image}
           url={project.url}
           urlGit={project.urlGit}
+          id={project.id}
         />
 
         {/* Card Content */}
