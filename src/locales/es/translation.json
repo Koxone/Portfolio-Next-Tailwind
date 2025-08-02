@@ -79,5 +79,30 @@
       "google": "Google Wallet",
       "apple": "Apple Wallet"
     }
+  },
+  "projects": {
+    "fws": {
+      "title": "Ecommerce Next.js, Shopify Headless API",
+      "description": "Tienda en línea moderna y responsiva creada con Next.js, Tailwind CSS y Shopify Storefront API. Incluye UI limpia, navegación avanzada de productos, reseñas con imágenes, wishlist con Firebase y soporte PWA con uso offline e instalación en iOS.",
+      "updated": "Actualizado Agosto 2025",
+      "date": "Julio 2025",
+      "techUsed": "Tecnologias Usadas"
+    },
+    "sacbe": {
+      "title": "Sacbe Tours",
+      "description": "Aplicación web moderna para reservar tours en todo el mundo. Ofrece disponibilidad en tiempo real, precios dinámicos y reservas sin complicaciones a través de una API personalizada. Interfaz limpia, intuitiva y totalmente responsiva.",
+      "updated": "Actualizado en agosto de 2025",
+      "date": "Julio 2025",
+      "type": "Aplicación Web",
+      "status": "Proyecto Activo"
+    },
+    "couponGenerator": {
+      "title": "Generador de Cupones",
+      "description": "Aplicación web responsiva que obtiene cupones promocionales desde una API, permite explorar ofertas por región y generar pases de Apple/Google Wallet mediante integración dinámica.",
+      "updated": "Actualizado en agosto de 2025",
+      "date": "Julio 2025",
+      "type": "Aplicación Web",
+      "status": "Proyecto Activo"
+    }
   }
 }
