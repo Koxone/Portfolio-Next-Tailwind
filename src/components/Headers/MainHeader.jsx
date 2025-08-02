@@ -60,7 +60,7 @@ export default function MainHeader() {
         className={`flex h-16 w-full items-center border-b border-gray-800 bg-gray-900 px-5 py-8 md:p-8 ${inter.className}`}
       >
         <img
-          className="mr-auto h-fit max-h-10 w-full max-w-9 cursor-pointer object-cover md:max-h-15 md:max-w-13"
+          className="mr-auto object-contain h-fit max-h-10 w-full max-w-9 cursor-pointer  md:max-h-15 md:max-w-13"
           src="/logo.png"
           alt="logo icon"
         />
