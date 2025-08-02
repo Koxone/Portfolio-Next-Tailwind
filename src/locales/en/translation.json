@@ -97,7 +97,7 @@
       "status": "Active Project"
     },
     "couponGenerator": {
-      "title": "Coupon Generator",
+      "title": "Coupon Generator with API Integration",
       "description": "A responsive web app that fetches promotional coupons from an API, lets users explore offers by region, and generate Apple/Google Wallet passes via dynamic integration.",
       "updated": "Updated August 2025",
       "date": "July 2025",
