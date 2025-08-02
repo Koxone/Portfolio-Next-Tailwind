@@ -2,9 +2,9 @@ import React from 'react';
 
 function CardHeader({ tags = [], date }) {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex flex-wrap items-center justify-between gap-2 md:flex-nowrap">
       {/* Tags */}
-      <div className="flex flex-wrap gap-2">
+      <div className="flex gap-2">
         {tags.map((tag, index) => (
           <div
             key={index}

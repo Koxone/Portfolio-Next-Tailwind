@@ -3,7 +3,7 @@ import ProjectCard from '../../Cards/ProjectCard/ProjectCard';
 
 function ProjectsSection() {
   return (
-    <div className="flex w-full flex-col">
+    <div id='projects' className="flex w-full flex-col">
       <div>
         <h2 className="mb-2 text-center text-4xl font-bold text-[#c2c6da]">
           Projects
