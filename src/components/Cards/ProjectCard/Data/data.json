@@ -41,7 +41,7 @@
       "image": "/tours/2.webp",
       "featured": true,
       "src": "tours",
-      "completed": true,
+      "completed": false,
       "active": true,
       "updated": "projects.sacbe.updated",
       "date": "projects.sacbe.date",
