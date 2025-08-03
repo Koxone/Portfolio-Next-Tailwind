@@ -32,6 +32,7 @@
       "features": "projects.fws.features",
       "projectFeatures": "projects.fws.projectFeatures"
     },
+
     "sacbe": {
       "id": "sacbe",
       "titleKey": "projects.sacbe.title",
@@ -63,6 +64,7 @@
       "features": "projects.sacbe.features",
       "projectFeatures": "projects.sacbe.projectFeatures"
     },
+    
     "couponGenerator": {
       "id": "couponGenerator",
       "titleKey": "projects.couponGenerator.title",
