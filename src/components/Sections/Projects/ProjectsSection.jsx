@@ -69,9 +69,9 @@ function ProjectsSection() {
         </div>
       </div>
 
-      <button className="hover:flash hidden w-fit cursor-pointer self-center rounded-[9999px] bg-white px-2 py-1.5 font-medium text-black transition-all duration-300 ease-in-out hover:bg-orange-400/80 hover:text-white lg:block">
+      {/* <button className="hover:flash hidden w-fit cursor-pointer self-center rounded-[9999px] bg-white px-2 py-1.5 font-medium text-black transition-all duration-300 ease-in-out hover:bg-orange-400/80 hover:text-white lg:block">
         View More
-      </button>
+      </button> */}
     </div>
   );
 }
