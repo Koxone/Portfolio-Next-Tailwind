@@ -22,7 +22,7 @@ function ProjectsSection() {
         <div className="mx-auto mb-10 h-1 w-24 rounded-full bg-gradient-to-r from-orange-400 to-yellow-400"></div>
       </div>
 
-      {/* --- Para pantallas md: slider --- */}
+      {/* Slider */}
       <div className="relative mb-6 hidden w-full justify-center md:flex xl:hidden">
         <div
           className="flex transition-transform duration-500 ease-in-out"
@@ -60,7 +60,7 @@ function ProjectsSection() {
         </button>
       </div>
 
-      {/* --- Para pantallas menores a md y mayores a lg: diseño normal --- */}
+      {/* Regular */}
       <div className="mb-6 flex flex-col gap-10 md:hidden lg:hidden lg:flex-row xl:flex">
         <ProjectCard projectKey="fws" />
         <ProjectCard projectKey="sacbe" />
