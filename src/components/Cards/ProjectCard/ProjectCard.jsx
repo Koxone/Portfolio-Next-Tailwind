@@ -18,7 +18,7 @@ export default function ProjectCard({ projectKey }) {
   if (!project) return null;
 
   return (
-    <div className="group relative w-full max-w-[450px] lg:max-w-[400px]">
+    <div className="group relative w-full max-w-[450px] lg:max-w-[430px]">
       <div className="relative h-full cursor-pointer overflow-hidden rounded-xl border border-orange-400/50 backdrop-blur-xl transition-all duration-500 ease-in-out hover:scale-[1.02] hover:border-orange-400 hover:shadow-2xl hover:shadow-[0_0_30px_rgba(251,146,60,0.3)]">
         <span className="animate-spark absolute z-20 hidden h-2 w-2 rounded-full opacity-100 group-hover:block hover:bg-orange-400"></span>
 
