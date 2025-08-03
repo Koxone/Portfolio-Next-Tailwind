@@ -20,7 +20,13 @@ export default function MainHeader() {
   const pathname = usePathname();
 
   const toggleLanguage = () => {
-    i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en');
+    if (i18n.language === 'en') {
+      i18n.changeLanguage('es');
+    } else if (i18n.language === 'es') {
+      i18n.changeLanguage('pt');
+    } else {
+      i18n.changeLanguage('en');
+    }
   };
 
   useEffect(() => {
@@ -108,8 +114,8 @@ export default function MainHeader() {
             onClick={toggleLanguage}
             className="flex cursor-pointer items-center gap-1 rounded-md border border-gray-500 px-3 py-1 text-xs font-medium text-[#FFD700] transition-colors duration-200 hover:border-yellow-400 hover:text-yellow-400 sm:text-sm"
           >
-            {i18n.language === 'en' ? 'EN' : 'ES'}
-            <img src="/StackIcons/LanguageIcon.svg" alt="" />
+            {i18n.language.toUpperCase()}
+            <img src="/StackIcons/LanguageIcon.svg" alt="Language" />
           </button>
         </div>
       </header>
