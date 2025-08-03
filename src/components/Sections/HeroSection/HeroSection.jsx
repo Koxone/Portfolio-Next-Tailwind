@@ -1,8 +1,8 @@
 import React from 'react';
-import { CalendarIcon } from '../Icons/LucideIcons';
-import StatsGrid from '../ProjectStats/StatsGrid';
-import ProjectButtons from '../ActionButtons/ProjectButtons';
-import ProjectShowcase from '../ProjectImage/ProjectShowcase';
+import { CalendarIcon } from '../../Icons/LucideIcons';
+import StatsGrid from '../../Views/Projects/ProjectStats/StatsGrid';
+import ProjectButtons from '../../Buttons/ProjectButtons';
+import ProjectShowcase from '../../Views/Projects/ProjectImage/ProjectShowcase';
 
 const HeroSection = ({
   tags,

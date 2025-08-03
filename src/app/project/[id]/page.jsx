@@ -1,11 +1,11 @@
 'use client';
 
 import React from 'react';
-import ProjectHeader from '../../../components/Manus/Header/ProjectHeader';
-import HeroSection from '../../../components/Manus/Hero/HeroSection';
-import OverviewCard from '../../../components/Manus/ProjectOverview/OverviewCard';
-import FeaturesGrid from '../../../components/Manus/KeyFeatures/FeaturesGrid';
-import ProjectSidebar from '../../../components/Manus/Sidebar/ProjectSidebar';
+import ProjectHeader from '../../../components/Headers/ProjectHeader';
+import HeroSection from '../../../components/Sections/HeroSection/HeroSection';
+import OverviewCard from '../../../components/Views/Projects/ProjectOverview/OverviewCard';
+import FeaturesGrid from '../../../components/Views/Projects/KeyFeatures/FeaturesGrid';
+import ProjectSidebar from '../../../components/Views/Projects/Sidebar/ProjectSidebar';
 import data from '../../../components/Cards/ProjectCard/Data/data';
 import { useTranslation } from 'react-i18next';
 
