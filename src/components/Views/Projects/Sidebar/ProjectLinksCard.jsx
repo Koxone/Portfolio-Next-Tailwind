@@ -4,7 +4,7 @@ import {
   GlobeIcon,
   GithubIcon,
   ArrowUpRightIcon,
-} from '../Icons/LucideIcons';
+} from '../../../Icons/LucideIcons';
 
 const LinkCard = ({ href, icon: Icon, title, subtitle, iconBg, iconColor }) => (
   <a

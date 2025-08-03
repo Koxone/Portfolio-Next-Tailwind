@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileTextIcon } from '../Icons/LucideIcons';
+import { FileTextIcon } from '../../../Icons/LucideIcons';
 
 const OverviewCard = ({ overview, tOverview }) => {
   return (

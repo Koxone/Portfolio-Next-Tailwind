@@ -1,5 +1,5 @@
 import React from 'react';
-import { ZapIcon, CircleCheckBigIcon } from '../Icons/LucideIcons';
+import { ZapIcon, CircleCheckBigIcon } from '../../../Icons/LucideIcons';
 
 const FeatureCard = ({ title, description }) => (
   <div className="flex items-start gap-4 rounded-2xl border border-orange-400/50 p-6 backdrop-blur-lg transition-all duration-300 hover:border-slate-600/50 hover:bg-slate-700/30">
@@ -14,7 +14,6 @@ const FeatureCard = ({ title, description }) => (
 );
 
 const FeaturesGrid = ({ tFeatures, projectFeatures }) => {
-
   return (
     <section>
       <div className="rounded-xl border border-orange-400/50 text-white shadow backdrop-blur-lg">

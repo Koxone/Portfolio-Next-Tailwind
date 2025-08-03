@@ -4,7 +4,7 @@ import {
   UsersIcon,
   CodeXmlIcon,
   AwardIcon,
-} from '../Icons/LucideIcons';
+} from '../../../Icons/LucideIcons';
 import { useTranslation } from 'react-i18next';
 
 const StatCard = ({ icon: Icon, label, value, iconBg, iconColor }) => (

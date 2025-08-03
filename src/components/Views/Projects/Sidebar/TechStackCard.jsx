@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayersIcon } from '../Icons/LucideIcons';
+import { LayersIcon } from '../../../Icons/LucideIcons';
 
 const TechBadge = ({ name, color }) => (
   <span
