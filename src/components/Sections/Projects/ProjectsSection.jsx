@@ -41,7 +41,7 @@ function ProjectsSection() {
         {/* Chevron en md */}
         <button
           onClick={handleNext}
-          className="absolute top-1/2 right-2 -translate-y-1/2 rounded-full bg-white/80 p-2 shadow-md transition hover:bg-orange-400 hover:text-white"
+          className="absolute cursor-pointer top-1/2 right-2 -translate-y-1/2 rounded-full bg-white/80 p-2 shadow-md transition hover:bg-orange-400 hover:text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
