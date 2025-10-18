@@ -115,13 +115,15 @@
       "statusKey": "projects.threadhive.status",
       "status": "projects.threadhive.statusProject",
       "technologies": [
-        "Next.js",
-        "Tailwind",
+        "Next.js 15",
+        "React 19",
         "MongoDB",
+        "Firebase",
+        "Redux Toolkit",
+        "TanStack Query",
+        "Tiptap",
         "JWT",
-        "API",
-        "Zustand",
-        "Next API Routes"
+        "Vercel"
       ],
       "tags": ["FullStack", "PWA", "API"],
       "teamSize": "1",
