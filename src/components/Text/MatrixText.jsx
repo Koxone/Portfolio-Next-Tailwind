@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 export default function MatrixText({
-  text = 'Frontend Engineer',
+  text = ' Full-Stack Product Engineer',
   className = '',
   totalDuration = 3000, // total duration in ms
   flickerDuration = 100, // flicker time per letter
