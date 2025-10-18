@@ -41,7 +41,7 @@ function ProjectsSection() {
         {/* Chevron en md */}
         <button
           onClick={handleNext}
-          className="absolute cursor-pointer top-1/2 right-2 -translate-y-1/2 rounded-full bg-white/80 p-2 shadow-md transition hover:bg-orange-400 hover:text-white"
+          className="absolute top-1/2 right-2 -translate-y-1/2 cursor-pointer rounded-full bg-white/80 p-2 shadow-md transition hover:bg-orange-400 hover:text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -62,11 +62,11 @@ function ProjectsSection() {
 
       {/* Regular */}
       <div className="mb-6 flex flex-col gap-10 md:hidden lg:hidden lg:flex-row xl:flex">
+        <ProjectCard projectKey="threadhive" />
         <ProjectCard projectKey="fws" />
-        <ProjectCard projectKey="sacbe" />
-        <div className="lg:hidden xl:block">
+        {/* <div className="lg:hidden xl:block">
           <ProjectCard projectKey="couponGenerator" />
-        </div>
+        </div> */}
       </div>
 
       {/* <button className="hover:flash hidden w-fit cursor-pointer self-center rounded-[9999px] bg-white px-2 py-1.5 font-medium text-black transition-all duration-300 ease-in-out hover:bg-orange-400/80 hover:text-white lg:block">

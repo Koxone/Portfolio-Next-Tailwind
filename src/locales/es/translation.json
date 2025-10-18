@@ -194,6 +194,53 @@
         }
       ],
       "overview": "Coupon Cards es una plataforma digital de cupones, responsiva y multilenguaje, desarrollada con React 19, Vite y Tailwind CSS 4. Proporciona a los turistas en México y la República Dominicana un acceso sencillo a ofertas promocionales de las principales cadenas de comida rápida en destinos premium como Cancún, Tulum, Los Cabos, Puerto Vallarta y Punta Cana. La plataforma verifica la elegibilidad del usuario mediante una llamada a una API que valida el correo electrónico y el código de reservación a través del endpoint de reservaciones de Sacbe Transfers. Los usuarios elegibles pueden explorar y filtrar cupones por región, ver los detalles de las promociones y guardar las ofertas directamente en Apple Wallet o Google Wallet para mayor comodidad durante su viaje. Sus principales características incluyen soporte multilenguaje (inglés/español) usando i18next, una interfaz limpia y enfocada en dispositivos móviles, filtrado por región e integración con Apple y Google Wallet. Sigue una estructura modular y basada en componentes para garantizar escalabilidad y facilidad de mantenimiento. El proyecto está desplegado en Vercel y utiliza ESLint, Prettier y el plugin de Prettier para Tailwind para mantener un formato de código consistente. Las futuras mejoras incluirán cuentas de usuario, un panel de administración para la gestión de cupones, integración de analíticas y soporte para más destinos turísticos."
+    },
+
+    "threadhive": {
+      "id": "threadhive",
+      "title": "ThreadHive, Plataforma Comunitaria",
+      "description": "Una plataforma moderna de discusión impulsada por la comunidad, construida con Next.js, Tailwind CSS, MongoDB, autenticación JWT y Redux. Incluye comentarios en hilos con conectores visuales, votaciones en tiempo real, subcomunidades con controles de privacidad, publicaciones con galerías multimedia y una interfaz adaptable potenciada por animaciones de Framer Motion.",
+      "updated": "Actualizado en septiembre de 2025",
+      "date": "Septiembre de 2025",
+      "techUsed": "Tecnologías utilizadas",
+      "status": "Proyecto activo",
+      "statusProject": "En progreso",
+      "features": "Características principales",
+      "projectFeatures": [
+        {
+          "title": "Comentarios en Hilos",
+          "description": "Sistema interactivo de comentarios con respuestas anidadas, conectores visuales entre usuarios, colapsado de hilos y opciones de ordenamiento flexibles."
+        },
+        {
+          "title": "Sistema de Votación",
+          "description": "Funcionalidad de votos positivos y negativos tanto en publicaciones como en comentarios, fomentando el ranking de contenido impulsado por la comunidad."
+        },
+        {
+          "title": "Subhives (Comunidades)",
+          "description": "Comunidades independientes con su propia identidad visual, niveles de privacidad, gestión de miembros y herramientas de moderación."
+        },
+        {
+          "title": "Publicaciones Multimedia",
+          "description": "Soporte para galerías de múltiples imágenes, incrustaciones responsivas y texto con formato dentro de las publicaciones."
+        },
+        {
+          "title": "Autenticación y Roles",
+          "description": "Autenticación basada en JWT con gestión de roles para usuarios, moderadores y administradores, garantizando la seguridad de las comunidades."
+        },
+        {
+          "title": "Experiencia en Tiempo Real",
+          "description": "Actualizaciones dinámicas para votos, comentarios y estadísticas de comunidades sin recargar la página, mejorando la interacción del usuario."
+        },
+        {
+          "title": "Animaciones con Framer Motion",
+          "description": "Transiciones suaves y microinteracciones que ofrecen una experiencia moderna y pulida en toda la plataforma."
+        },
+        {
+          "title": "Caché de Sesión",
+          "description": "Caché inteligente en sessionStorage para publicaciones y comunidades, reduciendo los tiempos de carga y mejorando el rendimiento general."
+        }
+      ],
+      "overview": "ThreadHive es una plataforma de discusión moderna, totalmente adaptable y orientada a la comunidad, construida con Next.js 15, Tailwind CSS v4, MongoDB y autenticación JWT. Está diseñada para escalabilidad, rendimiento y uso en producción real, ofreciendo comentarios en hilos con conectores visuales, votaciones en tiempo real, subcomunidades con controles de privacidad y publicaciones multimedia con galerías de imágenes. El proyecto incluye internacionalización (i18n), transiciones suaves con Framer Motion, soporte offline y un diseño optimizado para todos los dispositivos. Sigue una arquitectura modular limpia con SSR para optimización SEO y está desplegado en Vercel. Es una plantilla de plataforma social lista para producción y de código abierto para construir comunidades en línea escalables con Next.js, MongoDB y JWT, siguiendo las mejores prácticas de rendimiento, UX y mantenibilidad."
     }
   }
 }
