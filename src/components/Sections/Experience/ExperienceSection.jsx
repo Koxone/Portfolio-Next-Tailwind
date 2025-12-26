@@ -26,9 +26,7 @@ export default function ExperienceSection() {
             <h3 className="mb-2 text-xl font-semibold text-orange-300">
               {t('experienceSection.role')}
             </h3>
-            <p className="text-sm text-neutral-400">
-              {t('experienceSection.company')}
-            </p>
+            <p className="text-sm text-neutral-400">{t('experienceSection.company')}</p>
           </div>
 
           <div
@@ -110,9 +108,7 @@ export default function ExperienceSection() {
               onClick={() => setExpanded(!expanded)}
               className="text-orange-400 underline transition hover:text-orange-300"
             >
-              {expanded
-                ? t('experienceSection.showLess')
-                : t('experienceSection.showMore')}
+              {expanded ? t('experienceSection.showLess') : t('experienceSection.showMore')}
             </button>
           </div>
 

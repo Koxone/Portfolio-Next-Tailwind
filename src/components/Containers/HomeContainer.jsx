@@ -6,10 +6,7 @@ import SocialLinks from '../Sections/Social/SocialLinks';
 
 function HomeContainer() {
   return (
-    <div
-      id="home"
-      className="grid w-full grid-rows-[auto_auto_1fr] justify-center gap-4"
-    >
+    <div id="home" className="grid w-full grid-rows-[auto_auto_1fr] justify-center gap-4">
       <MainTitleContainer />
       <div className="gap- grid grid-cols-1 justify-evenly">
         <SocialLinks />

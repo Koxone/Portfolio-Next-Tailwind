@@ -1,5 +1,6 @@
 import ExperienceContainer from '@/components/Containers/ExperienceContainer';
 import HomeContainer from '@/components/Containers/HomeContainer';
+import Contributions from '@/components/Github/Calendar';
 import GitHubCalendar from '@/components/Github/GitHubCalendar';
 import ContactSection from '@/components/Sections/Contact/ContactSection';
 import ProjectsSection from '@/components/Sections/Projects/ProjectsSection';
@@ -13,6 +14,7 @@ export default function Home() {
       <StackSection />
       <ProjectsSection />
       {/* <GitHubCalendar /> */}
+      <Contributions />
       <ContactSection />
     </main>
   );
