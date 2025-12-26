@@ -75,13 +75,13 @@ export default function MainHeader() {
         />
 
         <div className="flex items-center gap-2 text-xs text-white sm:gap-8 sm:text-base">
-          <a
+          {/* <a
             className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
             target="_blank"
             href="https://resume.koxland.dev/"
           >
             {t('header.resume')}
-          </a>
+          </a> */}
           <a
             className="transition-transform duration-200 hover:scale-125 hover:text-[#FFD700]"
             target="_blank"
