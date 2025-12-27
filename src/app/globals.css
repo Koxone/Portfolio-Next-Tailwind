@@ -9,21 +9,203 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Ocultar scrollbar en Chrome, Edge y Safari */
 ::-webkit-scrollbar {
   display: none;
 }
 
-/* Ocultar scrollbar en Firefox */
 html {
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 
-/* Evitar que el scroll desaparezca la funcionalidad */
 html,
 body {
-  -ms-overflow-style: none; /* IE y Edge antiguos */
+  -ms-overflow-style: none;
 }
+/* #region Color Pallette */
+@theme {
+  /* 🎨 Escala base */
+  --color-brand: #101828;
+  --color-accent: #1e90ff;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a3a3a3;
+  --color-button-primary: #1e3a8ae6;
+  --color-button-primary-hover: #172554e6;
+  --color-bg-alt: #1e293b;
+  --color-border-main: #60a5fa80;
+  --color-border-strong: #475569;
+
+  /* 🔥 Estados */
+  --color-success: #16a34a;
+  --color-error: #dc2626;
+  --color-warning: #facc15;
+  --color-info: #0ea5e9;
+
+  /* 📌 Jerarquía de texto */
+  --color-text-heading: #f8fafc;
+  --color-text-subheading: #e2e8f0;
+  --color-text-body: #cbd5e1;
+  --color-text-muted: #94a3b8;
+
+  /* 🌗 Variantes escalables */
+  --color-brand-100: #e2e8f0;
+  --color-brand-200: #cbd5e1;
+  --color-brand-900: #0f172a;
+
+  --color-accent-light: #60a5fa;
+  --color-accent-dark: #1e3a8a;
+}
+
+@layer utilities {
+  .color-brand {
+    color: var(--color-brand);
+  }
+  .bg-brand {
+    background-color: var(--color-brand);
+  }
+  .border-brand {
+    border-color: var(--color-brand);
+  }
+
+  .text-accent {
+    color: var(--color-accent);
+  }
+  .bg-accent {
+    background-color: var(--color-accent);
+  }
+  .border-accent {
+    border-color: var(--color-accent);
+  }
+
+  .text-primary {
+    color: var(--color-text-primary);
+  }
+  .text-secondary {
+    color: var(--color-text-secondary);
+  }
+
+  .btn-primary {
+    background-color: var(--color-button-primary);
+  }
+  .btn-primary-hover:hover {
+    background-color: var(--color-button-primary-hover);
+  }
+
+  .bg-alt {
+    background-color: var(--color-bg-alt);
+  }
+
+  .border-main {
+    border-color: var(--color-border-main);
+  }
+  .border-strong {
+    border-color: var(--color-border-strong);
+  }
+
+  .color-success {
+    color: var(--color-success);
+  }
+  .bg-success {
+    background-color: var(--color-success);
+  }
+  .border-success {
+    border-color: var(--color-success);
+  }
+
+  .color-error {
+    color: var(--color-error);
+  }
+  .bg-error {
+    background-color: var(--color-error);
+  }
+  .border-error {
+    border-color: var(--color-error);
+  }
+
+  .color-warning {
+    color: var(--color-warning);
+  }
+  .bg-warning {
+    background-color: var(--color-warning);
+  }
+  .border-warning {
+    border-color: var(--color-warning);
+  }
+
+  .color-info {
+    color: var(--color-info);
+  }
+  .bg-info {
+    background-color: var(--color-info);
+  }
+  .border-info {
+    border-color: var(--color-info);
+  }
+
+  .text-heading {
+    color: var(--color-text-heading);
+  }
+  .text-subheading {
+    color: var(--color-text-subheading);
+  }
+  .text-body {
+    color: var(--color-text-body);
+  }
+  .text-muted {
+    color: var(--color-text-muted);
+  }
+
+  .color-brand-100 {
+    color: var(--color-brand-100);
+  }
+  .bg-brand-100 {
+    background-color: var(--color-brand-100);
+  }
+  .border-brand-100 {
+    border-color: var(--color-brand-100);
+  }
+
+  .color-brand-200 {
+    color: var(--color-brand-200);
+  }
+  .bg-brand-200 {
+    background-color: var(--color-brand-200);
+  }
+  .border-brand-200 {
+    border-color: var(--color-brand-200);
+  }
+
+  .color-brand-900 {
+    color: var(--color-brand-900);
+  }
+  .bg-brand-900 {
+    background-color: var(--color-brand-900);
+  }
+  .border-brand-900 {
+    border-color: var(--color-brand-900);
+  }
+
+  .color-accent-light {
+    color: var(--color-accent-light);
+  }
+  .bg-accent-light {
+    background-color: var(--color-accent-light);
+  }
+  .border-accent-light {
+    border-color: var(--color-accent-light);
+  }
+
+  .color-accent-dark {
+    color: var(--color-accent-dark);
+  }
+  .bg-accent-dark {
+    background-color: var(--color-accent-dark);
+  }
+  .border-accent-dark {
+    border-color: var(--color-accent-dark);
+  }
+}
+
+/* #endregion */
 
 /* Background */
 @layer utilities {
@@ -163,6 +345,8 @@ body {
   background-position: center;
   border-radius: 16px;
 }
+
+/*#region Glow Stack Section*/
 
 .glow-card {
   @apply flex cursor-pointer flex-col items-center gap-2 rounded-2xl p-1 transition-all duration-300;
@@ -361,3 +545,4 @@ body {
   opacity: 1;
   visibility: visible;
 }
+/*#endregion*/

@@ -1,6 +1,6 @@
 {
   "subtitle": {
-    "text": "Especializado en integraciones con React, Next.js y Firebase"
+    "text": "Especializado en integraciones con Next.js, MongoDB y Firebase"
   },
   "resumeButton": {
     "button": "Descargar CV"
@@ -9,27 +9,28 @@
     "resume": "Curriculum"
   },
   "stack": {
-    "main": "Trabajo principalmente con",
-    "also": "También construyo con",
-    "tools": "Herramientas e integraciones"
+    "main": "Frontend:",
+    "also": "Backend:",
+    "database": "Base de datos y Almacenamiento:",
+    "tools": "Herramientas e integraciones:"
   },
   "aboutMeSection": {
     "hi": "¡Hola! Soy",
     "name": "Carlos De Leon",
     "a": "un",
     "student": "Ingeniero de Software",
-    "currently": "actualmente realizando una",
-    "internship": "pasantía de desarrollo",
+    "currently": "que actualmente trabaja como ",
+    "internship": "Fullstack Developer",
     "atCompany": "en una empresa tecnológica de turismo que opera en",
     "company": "México y República Dominicana",
     "transition": "Transicionando desde",
     "experience": "más de 10 años como COO y Gerente General de restaurantes",
     "where": "donde lideré",
-    "teams": "equipos de más de 100 personas",
+    "teams": "equipos de hasta 100 personas",
     "andManaged": "y gestioné operaciones con",
     "operations": "1.5 millones de USD en ingresos mensuales con márgenes de ganancia del 30%",
     "today": "Hoy en día, desarrollo aplicaciones web responsivas con",
-    "stack": "React, Next.js, Astro, Tailwind CSS y Firebase",
+    "stack": "Next.js, React, Typescript, Tailwind, MongoDB, JWT y APIs RESTful",
     "focusing": "enfocándome en",
     "focus": "código limpio y UI/UX intuitivo",
     "background": "Mi experiencia en operaciones aporta",
@@ -38,34 +39,34 @@
   },
   "experienceSection": {
     "title": "Experiencia",
-    "role": "Desarrollador Frontend",
+    "role": "Desarrollador Fullstack",
     "company": "Tourism Tech Solutions • México y República Dominicana",
     "points": {
-      "point1_part1": "Actualmente en una",
-      "point1_highlight1": "pasantía de desarrollo",
-      "point1_part2": "construyendo aplicaciones listas para producción para clientes de aeropuertos y comercio electrónico usando",
-      "point1_highlight2": "React, Tailwind CSS, Next.js, ASTRO y APIs REST",
-      "point2_part1": "Lideré la implementación de un",
-      "point2_highlight": "sistema de cupones dinámico con integración a Google Wallet y Apple Wallet",
-      "point2_part2": "colaborando con equipos de backend para ofrecer flujos de pago sin fricciones.",
-      "point3_part1": "Desarrollador autodidacta",
-      "point3_part2": "avanzando mediante proyectos prácticos, documentación técnica y aprendizaje estructurado en línea mientras persigo certificaciones formales.",
+      "point1_part1": "Actualmente trabajo como",
+      "point1_highlight1": "Fullstack Developer",
+      "point1_part2": "desarrollando aplicaciones web listas para producción con enfoque en escalabilidad, seguridad y experiencia de usuario para proyectos reales usando",
+      "point1_highlight2": "Next.js, React, TypeScript, Tailwind CSS v4, MongoDB, JWT y APIs modernas",
+      "point2_part1": "He diseñado e implementado",
+      "point2_highlight": "arquitecturas completas de frontend y backend",
+      "point2_part2": "incluyendo autenticación segura, control de roles, validación con Zod, manejo de estado con TanStack Query y despliegues profesionales.",
+      "point3_part1": "Ingeniero autodidacta con mentalidad de producto,",
+      "point3_part2": "formado a través de documentación oficial, lectura técnica profunda, proyectos complejos y estándares de código usados en entornos profesionales.",
       "point4_part1": "Comunicador multilingüe:",
       "point4_highlight1": "Español (nativo)",
       "point4_highlight2": "Inglés (C1)",
       "point4_highlight3": "Portugués (B1)",
-      "point4_part2": "— permitiendo colaboración efectiva con equipos y clientes internacionales.",
-      "point5_part1": "Aprovecho",
-      "point5_highlight": "más de 10 años de liderazgo en operaciones",
-      "point5_part2": "para impulsar proyectos técnicos con decisiones claras de arquitectura, alineación con los interesados y entregas consistentes."
+      "point4_part2": ", facilitando colaboración técnica clara con equipos y clientes internacionales.",
+      "point5_part1": "Integro",
+      "point5_highlight": "más de 10 años de liderazgo ejecutivo y gestión operativa",
+      "point5_part2": "para tomar decisiones técnicas sólidas, priorizar correctamente, mantener visión de negocio y entregar software confiable bajo presión."
     },
     "showMore": "Mostrar más",
     "showLess": "Mostrar menos",
     "tags": {
-      "react": "React",
       "next": "Next.js",
+      "react": "React",
       "tailwind": "Tailwind CSS",
-      "astro": "Astro",
+      "astro": "Typescript",
       "rest": "APIs REST",
       "graphql": "GraphQL",
       "firebase": "Firebase",
@@ -85,7 +86,7 @@
   "tOverview": "Descripcion del Proyecto",
   "projects": {
     "fws": {
-      "title": "Ecommerce Next.js, Shopify Headless API",
+      "title": "FitWorld Shop",
       "description": "Tienda en línea moderna y responsiva creada con Next.js, Tailwind CSS y Shopify Storefront API. Incluye UI limpia, navegación avanzada de productos, reseñas con imágenes, wishlist con Firebase y soporte PWA con uso offline e instalación en iOS.",
       "updated": "Actualizado Agosto 2025",
       "date": "Julio 2025",
@@ -194,6 +195,76 @@
         }
       ],
       "overview": "Coupon Cards es una plataforma digital de cupones, responsiva y multilenguaje, desarrollada con React 19, Vite y Tailwind CSS 4. Proporciona a los turistas en México y la República Dominicana un acceso sencillo a ofertas promocionales de las principales cadenas de comida rápida en destinos premium como Cancún, Tulum, Los Cabos, Puerto Vallarta y Punta Cana. La plataforma verifica la elegibilidad del usuario mediante una llamada a una API que valida el correo electrónico y el código de reservación a través del endpoint de reservaciones de Sacbe Transfers. Los usuarios elegibles pueden explorar y filtrar cupones por región, ver los detalles de las promociones y guardar las ofertas directamente en Apple Wallet o Google Wallet para mayor comodidad durante su viaje. Sus principales características incluyen soporte multilenguaje (inglés/español) usando i18next, una interfaz limpia y enfocada en dispositivos móviles, filtrado por región e integración con Apple y Google Wallet. Sigue una estructura modular y basada en componentes para garantizar escalabilidad y facilidad de mantenimiento. El proyecto está desplegado en Vercel y utiliza ESLint, Prettier y el plugin de Prettier para Tailwind para mantener un formato de código consistente. Las futuras mejoras incluirán cuentas de usuario, un panel de administración para la gestión de cupones, integración de analíticas y soporte para más destinos turísticos."
+    },
+
+    "threadhive": {
+      "id": "threadhive",
+      "title": "ThreadHive",
+      "description": "Una plataforma moderna de discusión impulsada por la comunidad, construida con Next.js, Tailwind CSS, MongoDB, autenticación JWT y Redux. Incluye comentarios en hilos con conectores visuales, votaciones en tiempo real, subcomunidades con controles de privacidad, publicaciones con galerías multimedia y una interfaz adaptable potenciada por animaciones de Framer Motion.",
+      "updated": "Actualizado en septiembre de 2025",
+      "date": "Septiembre de 2025",
+      "techUsed": "Tecnologías utilizadas",
+      "status": "Proyecto activo",
+      "statusProject": "En progreso",
+      "features": "Características principales",
+      "projectFeatures": [
+        {
+          "title": "Comentarios en Hilos",
+          "description": "Sistema interactivo de comentarios con respuestas anidadas, conectores visuales entre usuarios, colapsado de hilos y opciones de ordenamiento flexibles."
+        },
+        {
+          "title": "Sistema de Votación",
+          "description": "Funcionalidad de votos positivos y negativos tanto en publicaciones como en comentarios, fomentando el ranking de contenido impulsado por la comunidad."
+        },
+        {
+          "title": "Subhives (Comunidades)",
+          "description": "Comunidades independientes con su propia identidad visual, niveles de privacidad, gestión de miembros y herramientas de moderación."
+        },
+        {
+          "title": "Publicaciones Multimedia",
+          "description": "Soporte para galerías de múltiples imágenes, incrustaciones responsivas y texto con formato dentro de las publicaciones."
+        },
+        {
+          "title": "Autenticación y Roles",
+          "description": "Autenticación basada en JWT con gestión de roles para usuarios, moderadores y administradores, garantizando la seguridad de las comunidades."
+        },
+        {
+          "title": "Experiencia en Tiempo Real",
+          "description": "Actualizaciones dinámicas para votos, comentarios y estadísticas de comunidades sin recargar la página, mejorando la interacción del usuario."
+        },
+        {
+          "title": "Animaciones con Framer Motion",
+          "description": "Transiciones suaves y microinteracciones que ofrecen una experiencia moderna y pulida en toda la plataforma."
+        },
+        {
+          "title": "Caché de Sesión",
+          "description": "Caché inteligente en sessionStorage para publicaciones y comunidades, reduciendo los tiempos de carga y mejorando el rendimiento general."
+        }
+      ],
+      "overview": "ThreadHive es una plataforma de discusión moderna, totalmente adaptable y orientada a la comunidad, construida con Next.js 15, Tailwind CSS v4, MongoDB y autenticación JWT. Está diseñada para escalabilidad, rendimiento y uso en producción real, ofreciendo comentarios en hilos con conectores visuales, votaciones en tiempo real, subcomunidades con controles de privacidad y publicaciones multimedia con galerías de imágenes. El proyecto incluye internacionalización (i18n), transiciones suaves con Framer Motion, soporte offline y un diseño optimizado para todos los dispositivos. Sigue una arquitectura modular limpia con SSR para optimización SEO y está desplegado en Vercel. Es una plantilla de plataforma social lista para producción y de código abierto para construir comunidades en línea escalables con Next.js, MongoDB y JWT, siguiendo las mejores prácticas de rendimiento, UX y mantenibilidad."
+    },
+
+    "beehealth": {
+      "title": "BeeHealth",
+      "description": "Sistema integral de gestión para clínicas multi-especialidad con manejo de pacientes, citas, inventario, contabilidad y flujos clínicos.",
+      "updated": "Actualizado",
+      "date": "Diciembre 2025",
+      "type": "Aplicación Web SaaS",
+      "status": "En desarrollo activo",
+      "statusProject": "Beta privada",
+      "overview": "BeeHealth es un sistema de gestión médica diseñado para clínicas que manejan múltiples especialidades como peso, dental y estética. Ofrece control completo de expedientes clínicos, sistema de citas, inventario con trazabilidad, contabilidad integrada y acceso basado en roles para diferentes tipos de usuarios.",
+      "features": "Gestión de pacientes • Expedientes clínicos digitales • Sistema de citas • Control de inventario • Contabilidad integrada • Timeline de paciente • Asignación de dietas y rutinas • Sistema de notificaciones • Control de acceso por roles • PWA compatible",
+      "projectFeatures": [
+        "Dashboard personalizado por rol (Admin, Doctor, Recepción, Paciente)",
+        "Expedientes clínicos con historial completo y timeline visual",
+        "Sistema de citas con calendario y recordatorios",
+        "Inventario con transacciones y alertas de stock",
+        "Módulo de peso con seguimiento de progreso y gráficas",
+        "Asignación de planes de dieta y ejercicio",
+        "Sistema de notificaciones en tiempo real",
+        "Reportes y analíticas por especialidad",
+        "Multi-clínica / Multi-tenant ready"
+      ]
     }
   }
 }

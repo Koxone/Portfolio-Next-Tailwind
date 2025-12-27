@@ -1,6 +1,6 @@
 {
   "subtitle": {
-    "text": "Specializing in React, Next.js & Firebase integrations"
+    "text": "Specializing in Next.js, MongoDB & Firebase integrations"
   },
   "resumeButton": {
     "button": "Download Resume"
@@ -9,55 +9,56 @@
     "resume": "Resume"
   },
   "stack": {
-    "main": "Mainly working with:",
-    "also": "Also building with",
-    "tools": "Tools & Integrations"
+    "main": "Frontend:",
+    "also": "Backend:",
+    "database": "Database and Storage:",
+    "tools": "Tools & Integrations:"
   },
   "aboutMeSection": {
-    "hi": "Hi there! I'm",
+    "hi": "Hi! I'm",
     "name": "Carlos De Leon",
     "a": "a",
     "student": "Software Engineer",
-    "currently": "currently in a",
-    "internship": "development internship",
-    "atCompany": "at a tourism tech company serving",
+    "currently": "currently working as a",
+    "internship": "Fullstack Developer",
+    "atCompany": "at a technology-driven tourism company operating in",
     "company": "Mexico and the Dominican Republic",
     "transition": "Transitioning from",
-    "experience": "10+ years as a Restaurant COO and General Manager",
+    "experience": "over 10 years as a COO and General Manager in the restaurant industry",
     "where": "where I led",
-    "teams": "teams of 100+ people",
+    "teams": "teams of up to 100 people",
     "andManaged": "and managed operations with",
-    "operations": "$1.5M USD monthly revenue at 30% profit margins",
-    "today": "Today, I'm building responsive web applications with",
-    "stack": "React, Next.js, Astro, Tailwind CSS, and Firebase",
+    "operations": "USD 1.5 million in monthly revenue with 30% profit margins",
+    "today": "Today, I build responsive web applications using",
+    "stack": "Next.js, React, TypeScript, Tailwind, MongoDB, JWT, and RESTful APIs",
     "focusing": "focusing on",
     "focus": "clean code and intuitive UI/UX",
-    "background": "My operations background brings proven",
-    "skills": "project management, data-driven decision making, and high-pressure performance skills",
-    "end": "to every technical challenge I tackle."
+    "background": "My operations background brings",
+    "skills": "project management, data-driven decision making, and high-performance skills under pressure",
+    "end": "to every technical challenge I take on."
   },
   "experienceSection": {
     "title": "Experience",
-    "role": "Frontend Developer",
+    "role": "Fullstack Developer",
     "company": "Tourism Tech Solutions • Mexico & Dominican Republic",
     "points": {
-      "point1_part1": "Currently in a",
-      "point1_highlight1": "development internship",
-      "point1_part2": "building production-ready applications for airport and e-commerce clients using",
-      "point1_highlight2": "React, Tailwind CSS, Next.js, ASTRO and REST APIs",
-      "point2_part1": "Led the implementation of a",
-      "point2_highlight": "dynamic coupon system with Google Wallet and Apple Wallet integration",
-      "point2_part2": "collaborating with backend teams to deliver seamless payment flows.",
-      "point3_part1": "Self-taught developer",
-      "point3_part2": "advancing through hands-on projects, technical documentation, and structured online learning while pursuing formal certification.",
+      "point1_part1": "Currently working as a",
+      "point1_highlight1": "Fullstack Developer",
+      "point1_part2": "building production-ready web applications with a strong focus on scalability, security, and user experience for real-world projects using",
+      "point1_highlight2": "Next.js, React, TypeScript, Tailwind CSS v4, MongoDB, JWT, and modern APIs",
+      "point2_part1": "I have designed and implemented",
+      "point2_highlight": "end-to-end frontend and backend architectures",
+      "point2_part2": "including secure authentication, role-based access control, Zod validation, state management with TanStack Query, and professional deployments.",
+      "point3_part1": "Self-taught engineer with a product-driven mindset,",
+      "point3_part2": "trained through official documentation, deep technical reading, complex projects, and coding standards used in professional environments.",
       "point4_part1": "Multilingual communicator:",
       "point4_highlight1": "Spanish (native)",
       "point4_highlight2": "English (C1)",
       "point4_highlight3": "Portuguese (B1)",
-      "point4_part2": "— enabling effective collaboration across international teams and clients.",
-      "point5_part1": "Leverage",
-      "point5_highlight": "10+ years of operations leadership",
-      "point5_part2": "to drive technical projects with clear architecture decisions, stakeholder alignment, and consistent delivery."
+      "point4_part2": ", enabling clear technical collaboration with international teams and clients.",
+      "point5_part1": "I leverage",
+      "point5_highlight": "over 10 years of executive leadership and operational management",
+      "point5_part2": "to make sound technical decisions, prioritize effectively, maintain business alignment, and deliver reliable software under pressure."
     },
     "showMore": "Show more",
     "showLess": "Show less",
@@ -65,7 +66,7 @@
       "react": "React",
       "next": "Next.js",
       "tailwind": "Tailwind CSS",
-      "astro": "Astro",
+      "astro": "Typescript",
       "rest": "REST APIs",
       "graphql": "GraphQL",
       "firebase": "Firebase",
@@ -86,7 +87,7 @@
   "projects": {
     "fws": {
       "id": "fws",
-      "title": "Ecommerce Next.js, Shopify Headless API",
+      "title": "FitWorld Shop",
       "description": "Modern, responsive e-commerce storefront built with Next.js, Tailwind CSS, and Shopify Storefront API. Features clean UI, advanced product browsing, customer reviews with images, wishlist via Firebase, and scalable PWA support with offline use and iOS 'Add to Home Screen' install.",
       "updated": "Updated August 2025",
       "date": "July 2025",
@@ -195,6 +196,76 @@
         }
       ],
       "overview": "Coupon Cards is a responsive, multi-language digital coupon platform built with React 19, Vite, and Tailwind CSS 4. It provides tourists in Mexico and the Dominican Republic with easy access to promotional offers from major fast-food chains in premium destinations such as Cancún, Tulum, Los Cabos, Puerto Vallarta, and Punta Cana. The platform verifies user eligibility via an API call that checks the email and reservation code through Sacbe Transfers’ reservation endpoint. Eligible users can browse and filter coupons by region, view promotion details, and save offers directly to Apple Wallet or Google Wallet for convenience on the go. Key features include multi-language support (English/Spanish) using i18next, a clean and mobile-first UI, region-based filtering, and wallet integration. It follows a modular, component-based structure for scalability and maintainability. The project is deployed on Vercel, using ESLint, Prettier, and Tailwind’s Prettier plugin for consistent code formatting. Future improvements include user accounts, an admin panel for coupon management, analytics integration, and support for more tourist destinations."
+    },
+
+    "threadhive": {
+      "id": "threadhive",
+      "title": "ThreadHive",
+      "description": "A next-generation community platform combining social discussion with gamification and complete brand identity. ThreadHive demonstrates end-to-end product development from strategic naming and visual design to full-stack implementation. Features include: WoolPath achievement system with 200+ custom-designed badges, NSFW content detection using TensorFlow.js, real-time notifications via Firebase, rich text editing with Tiptap, comprehensive moderation tools with role-based access, and privacy-controlled communities. Tech stack: Next.js 15, React 19, MongoDB, Redux + Zustand + TanStack Query for state management, JWT authentication, and Vercel deployment. Includes complete custom branding (mascot design system, naming strategy, visual identity) conceptualized and executed alongside technical development.",
+      "updated": "Updated September 2025",
+      "date": "September 2025",
+      "techUsed": "Technologies Used",
+      "status": "Active Project",
+      "statusProject": "In Progress",
+      "features": "Key Features",
+      "projectFeatures": [
+        {
+          "title": "Threaded Comments",
+          "description": "Interactive comment system with nested replies, visual connectors between users, collapsing threads, and flexible sorting options."
+        },
+        {
+          "title": "Voting System",
+          "description": "Upvote and downvote functionality on both posts and comments, encouraging community-driven ranking of content."
+        },
+        {
+          "title": "Subhive Communities",
+          "description": "Independent communities with their own branding, privacy levels, member management, and moderation tools."
+        },
+        {
+          "title": "Rich Media Posts",
+          "description": "Support for multi-image galleries, responsive embeds, and formatted text content inside posts."
+        },
+        {
+          "title": "Authentication and Roles",
+          "description": "JWT-based authentication with role management for users, moderators, and admins to secure communities."
+        },
+        {
+          "title": "Real-Time Experience",
+          "description": "Dynamic updates for votes, comments, and community stats without page reloads, enhancing engagement."
+        },
+        {
+          "title": "Framer Motion Animations",
+          "description": "Smooth transitions and micro-interactions for a modern and polished user experience across the platform."
+        },
+        {
+          "title": "Session Caching",
+          "description": "Smart sessionStorage caching for posts and communities, reducing load times and improving overall performance."
+        }
+      ],
+      "overview": "ThreadHive is a next-generation community platform that reimagines social discussion through comprehensive gamification and unique brand identity. It demonstrates complete end-to-end product development—from strategic branding and visual design to full-stack implementation and production deployment. The platform combines modern social features with an advanced achievement system (WoolPath) featuring 200+ custom-designed badges across 6 rarity tiers, creating engaging user progression and retention. Technical highlights include client-side NSFW content detection using TensorFlow.js, real-time notifications via Firebase Firestore, rich text editing with Tiptap, and sophisticated moderation tools with granular role-based access control (owner, moderator, member, banned, shadowbanned). Built with Next.js 15, React 19, Tailwind CSS v4, and MongoDB Atlas, ThreadHive implements distributed state management combining Redux (authentication), Zustand (UI state), and TanStack Query (server state caching). Features include threaded discussions with visual connectors, multi-image post galleries with Vercel Blob storage, privacy-controlled SubHive communities (public, private, NSFW, official), JWT authentication with refresh tokens, and internationalization support (English/Spanish). The project includes complete custom branding—strategic naming (Thread + Hive), mascot design system with multiple contextual variations, and cohesive visual identity across all platform touchpoints. Optimized for performance with SSR, responsive design for all devices, smooth transitions via Framer Motion, and deployed on Vercel with CI/CD integration. A production-ready demonstration of modern full-stack development, product thinking, and design execution."
+    },
+
+    "beehealth": {
+      "title": "BeeHealth",
+      "description": "Comprehensive management system for multi-specialty clinics with patient management, appointments, inventory, accounting, and clinical workflows.",
+      "updated": "Updated",
+      "date": "December 2025",
+      "type": "SaaS Web Application",
+      "status": "In active development",
+      "statusProject": "Private beta",
+      "overview": "BeeHealth is a medical management system designed for clinics handling multiple specialties such as weight management, dental, and aesthetics. It offers complete control of clinical records, appointment scheduling, inventory with traceability, integrated accounting, and role-based access for different user types.",
+      "features": "Patient management • Digital clinical records • Appointment system • Inventory control • Integrated accounting • Patient timeline • Diet and workout assignment • Notification system • Role-based access control • PWA compatible",
+      "projectFeatures": [
+        "Role-based personalized dashboard (Admin, Doctor, Reception, Patient)",
+        "Clinical records with complete history and visual timeline",
+        "Appointment system with calendar and reminders",
+        "Inventory with transactions and stock alerts",
+        "Weight module with progress tracking and charts",
+        "Diet and exercise plan assignment",
+        "Real-time notification system",
+        "Reports and analytics by specialty",
+        "Multi-clinic / Multi-tenant ready"
+      ]
     }
   }
 }
