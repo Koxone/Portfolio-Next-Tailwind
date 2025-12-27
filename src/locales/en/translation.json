@@ -242,29 +242,68 @@
           "description": "Smart sessionStorage caching for posts and communities, reducing load times and improving overall performance."
         }
       ],
-      "overview": "ThreadHive is a next-generation community platform that reimagines social discussion through comprehensive gamification and unique brand identity. It demonstrates complete end-to-end product development—from strategic branding and visual design to full-stack implementation and production deployment. The platform combines modern social features with an advanced achievement system (WoolPath) featuring 200+ custom-designed badges across 6 rarity tiers, creating engaging user progression and retention. Technical highlights include client-side NSFW content detection using TensorFlow.js, real-time notifications via Firebase Firestore, rich text editing with Tiptap, and sophisticated moderation tools with granular role-based access control (owner, moderator, member, banned, shadowbanned). Built with Next.js 15, React 19, Tailwind CSS v4, and MongoDB Atlas, ThreadHive implements distributed state management combining Redux (authentication), Zustand (UI state), and TanStack Query (server state caching). Features include threaded discussions with visual connectors, multi-image post galleries with Vercel Blob storage, privacy-controlled SubHive communities (public, private, NSFW, official), JWT authentication with refresh tokens, and internationalization support (English/Spanish). The project includes complete custom branding—strategic naming (Thread + Hive), mascot design system with multiple contextual variations, and cohesive visual identity across all platform touchpoints. Optimized for performance with SSR, responsive design for all devices, smooth transitions via Framer Motion, and deployed on Vercel with CI/CD integration. A production-ready demonstration of modern full-stack development, product thinking, and design execution."
+      "overview": "ThreadHive is a next-generation community platform that reimagines social discussion through comprehensive gamification and unique brand identity. It demonstrates complete end-to-end product development from strategic branding and visual design to full-stack implementation and production deployment. The platform combines modern social features with an advanced achievement system (WoolPath) featuring 200+ custom-designed badges across 6 rarity tiers, creating engaging user progression and retention. Technical highlights include client-side NSFW content detection using TensorFlow.js, real-time notifications via Firebase Firestore, rich text editing with Tiptap, and sophisticated moderation tools with granular role-based access control (owner, moderator, member, banned, shadowbanned). Built with Next.js 15, React 19, Tailwind CSS v4, and MongoDB Atlas, ThreadHive implements distributed state management combining Redux (authentication), Zustand (UI state), and TanStack Query (server state caching). Features include threaded discussions with visual connectors, multi-image post galleries with Vercel Blob storage, privacy-controlled SubHive communities (public, private, NSFW, official), JWT authentication with refresh tokens, and internationalization support (English/Spanish). The project includes complete custom branding strategic naming (Thread + Hive), mascot design system with multiple contextual variations, and cohesive visual identity across all platform touchpoints. Optimized for performance with SSR, responsive design for all devices, smooth transitions via Framer Motion, and deployed on Vercel with CI/CD integration. A production-ready demonstration of modern full-stack development, product thinking, and design execution."
     },
 
     "beehealth": {
       "title": "BeeHealth",
-      "description": "Comprehensive management system for multi-specialty clinics with patient management, appointments, inventory, accounting, and clinical workflows.",
+      "description": "A full-featured medical practice management platform built for multi-specialty clinics. Handles patient records, appointments, clinical workflows, inventory, and accounting with role-based access for doctors, employees, and patients.",
       "updated": "Updated",
       "date": "December 2025",
       "type": "SaaS Web Application",
       "status": "In active development",
       "statusProject": "Private beta",
-      "overview": "BeeHealth is a medical management system designed for clinics handling multiple specialties such as weight management, dental, and aesthetics. It offers complete control of clinical records, appointment scheduling, inventory with traceability, integrated accounting, and role-based access for different user types.",
-      "features": "Patient management • Digital clinical records • Appointment system • Inventory control • Integrated accounting • Patient timeline • Diet and workout assignment • Notification system • Role-based access control • PWA compatible",
+      "overview": "BeeHealth is a production-ready system currently used by medical clinics in Mexico. The platform implements hybrid RBAC + ABAC authorization, where access is controlled both by role and by specialty (weight, dental, aesthetic). Doctors get customizable clinical interfaces with drag-and-drop field ordering that persists per user profile. The system includes a complete patient timeline tracking all events consultations, prescriptions, diet and workout assignments with full audit trails. Inventory management logs every transaction with timestamp, user, and reason. Appointments sync in real-time with Google Calendar API across multiple specialty calendars. Built with Next.js 16, React 19, TypeScript, MongoDB, and deployed on Vercel.",
+      "features": "Key Features",
       "projectFeatures": [
-        "Role-based personalized dashboard (Admin, Doctor, Reception, Patient)",
-        "Clinical records with complete history and visual timeline",
-        "Appointment system with calendar and reminders",
-        "Inventory with transactions and stock alerts",
-        "Weight module with progress tracking and charts",
-        "Diet and exercise plan assignment",
-        "Real-time notification system",
-        "Reports and analytics by specialty",
-        "Multi-clinic / Multi-tenant ready"
+        {
+          "title": "Role-Based Dashboards",
+          "description": "Complete module isolation for doctors, employees, and patients. Each role has dedicated routes, UI components, and permissions with automatic redirects via ServerRoleGuard."
+        },
+        {
+          "title": "Clinical Records Management",
+          "description": "Comprehensive patient records with customizable fields, medical history tracking, and a complete patient timeline showing consultations, prescriptions, and treatment changes."
+        },
+        {
+          "title": "Drag-and-Drop UI Customization",
+          "description": "Doctors can configure their clinical interface by reordering fields with drag-and-drop. Preferences persist per user profile in MongoDB."
+        },
+        {
+          "title": "Google Calendar Integration",
+          "description": "Real-time appointment scheduling synced with Google Calendar API. Supports multiple specialty calendars with same-day appointment detection."
+        },
+        {
+          "title": "Inventory Management",
+          "description": "Full stock control for medications and supplies with low-stock alerts. Every transaction is logged with timestamp, user, and reason for complete audit trails."
+        },
+        {
+          "title": "Diet and Workout Assignment",
+          "description": "Create, edit, and assign diet and workout plans to patients. Patients only see their assigned content with activation and compliance tracking."
+        },
+        {
+          "title": "Weight Tracking with Charts",
+          "description": "Visual progress tracking for weight management patients with historical data displayed in interactive Recharts graphs."
+        },
+        {
+          "title": "Accounting Module",
+          "description": "Complete financial tracking with daily and weekly income reports, consultation vs product sales breakdown, and event reversal handling for appointment cancellations."
+        },
+        {
+          "title": "Hybrid RBAC + ABAC Authorization",
+          "description": "Access controlled by both role and specialty attribute. Doctors only access patients within their specialty (weight, dental, aesthetic) with server-side validation."
+        },
+        {
+          "title": "Dual-Token JWT Authentication",
+          "description": "Secure authentication with 15-minute access tokens and 7-day refresh tokens stored in httpOnly cookies. All validation occurs server-side."
+        },
+        {
+          "title": "Consultation Management",
+          "description": "Full consultation workflow with configurable fields, ability to link consultations to diets, workouts, and prescriptions, plus medical notes and follow-up tracking."
+        },
+        {
+          "title": "Multi-Specialty Support",
+          "description": "Built for clinics handling multiple specialties (weight, dental, aesthetic) with specialty-based routing and filtered patient access."
+        }
       ]
     }
   }

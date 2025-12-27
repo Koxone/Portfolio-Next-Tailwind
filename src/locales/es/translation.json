@@ -246,24 +246,63 @@
 
     "beehealth": {
       "title": "BeeHealth",
-      "description": "Sistema integral de gestión para clínicas multi-especialidad con manejo de pacientes, citas, inventario, contabilidad y flujos clínicos.",
+      "description": "Una plataforma completa de gestión de consultorios médicos diseñada para clínicas multi-especialidad. Maneja expedientes de pacientes, citas, flujos de trabajo clínicos, inventario y contabilidad con acceso basado en roles para doctores, empleados y pacientes.",
       "updated": "Actualizado",
       "date": "Diciembre 2025",
       "type": "Aplicación Web SaaS",
       "status": "En desarrollo activo",
       "statusProject": "Beta privada",
-      "overview": "BeeHealth es un sistema de gestión médica diseñado para clínicas que manejan múltiples especialidades como peso, dental y estética. Ofrece control completo de expedientes clínicos, sistema de citas, inventario con trazabilidad, contabilidad integrada y acceso basado en roles para diferentes tipos de usuarios.",
-      "features": "Gestión de pacientes • Expedientes clínicos digitales • Sistema de citas • Control de inventario • Contabilidad integrada • Timeline de paciente • Asignación de dietas y rutinas • Sistema de notificaciones • Control de acceso por roles • PWA compatible",
+      "overview": "BeeHealth es un sistema listo para producción actualmente utilizado por clínicas médicas en México. La plataforma implementa autorización híbrida RBAC + ABAC, donde el acceso es controlado tanto por rol como por especialidad (peso, dental, estética). Los doctores obtienen interfaces clínicas personalizables con ordenamiento de campos mediante drag-and-drop que persiste por perfil de usuario. El sistema incluye una línea de tiempo completa del paciente que rastrea todos los eventos: consultas, prescripciones, asignaciones de dietas y ejercicios, con auditoría completa. La gestión de inventario registra cada transacción con fecha, usuario y razón. Las citas se sincronizan en tiempo real con Google Calendar API a través de múltiples calendarios por especialidad. Construido con Next.js 16, React 19, TypeScript, MongoDB, y desplegado en Vercel.",
+      "features": "Características Principales",
       "projectFeatures": [
-        "Dashboard personalizado por rol (Admin, Doctor, Recepción, Paciente)",
-        "Expedientes clínicos con historial completo y timeline visual",
-        "Sistema de citas con calendario y recordatorios",
-        "Inventario con transacciones y alertas de stock",
-        "Módulo de peso con seguimiento de progreso y gráficas",
-        "Asignación de planes de dieta y ejercicio",
-        "Sistema de notificaciones en tiempo real",
-        "Reportes y analíticas por especialidad",
-        "Multi-clínica / Multi-tenant ready"
+        {
+          "title": "Dashboards por Rol",
+          "description": "Aislamiento completo de módulos para doctores, empleados y pacientes. Cada rol tiene rutas dedicadas, componentes de UI y permisos con redirecciones automáticas mediante ServerRoleGuard."
+        },
+        {
+          "title": "Gestión de Expedientes Clínicos",
+          "description": "Expedientes de pacientes completos con campos personalizables, seguimiento de historial médico, y una línea de tiempo completa mostrando consultas, prescripciones y cambios de tratamiento."
+        },
+        {
+          "title": "Personalización de UI con Drag-and-Drop",
+          "description": "Los doctores pueden configurar su interfaz clínica reordenando campos con drag-and-drop. Las preferencias persisten por perfil de usuario en MongoDB."
+        },
+        {
+          "title": "Integración con Google Calendar",
+          "description": "Programación de citas en tiempo real sincronizada con Google Calendar API. Soporta múltiples calendarios por especialidad con detección de citas del mismo día."
+        },
+        {
+          "title": "Gestión de Inventario",
+          "description": "Control completo de stock para medicamentos y suministros con alertas de stock bajo. Cada transacción se registra con fecha, usuario y razón para auditoría completa."
+        },
+        {
+          "title": "Asignación de Dietas y Ejercicios",
+          "description": "Crea, edita y asigna planes de dieta y ejercicio a pacientes. Los pacientes solo ven su contenido asignado con seguimiento de activación y cumplimiento."
+        },
+        {
+          "title": "Seguimiento de Peso con Gráficas",
+          "description": "Seguimiento visual del progreso para pacientes de control de peso con datos históricos mostrados en gráficas interactivas de Recharts."
+        },
+        {
+          "title": "Módulo de Contabilidad",
+          "description": "Seguimiento financiero completo con reportes de ingresos diarios y semanales, desglose de consultas vs ventas de productos, y manejo de reversiones por cancelación de citas."
+        },
+        {
+          "title": "Autorización Híbrida RBAC + ABAC",
+          "description": "Acceso controlado tanto por rol como por atributo de especialidad. Los doctores solo acceden a pacientes de su especialidad (peso, dental, estética) con validación del lado del servidor."
+        },
+        {
+          "title": "Autenticación JWT de Token Dual",
+          "description": "Autenticación segura con tokens de acceso de 15 minutos y tokens de refresco de 7 días almacenados en cookies httpOnly. Toda la validación ocurre del lado del servidor."
+        },
+        {
+          "title": "Gestión de Consultas",
+          "description": "Flujo de trabajo completo de consultas con campos configurables, capacidad de vincular consultas con dietas, ejercicios y prescripciones, además de notas médicas y seguimiento."
+        },
+        {
+          "title": "Soporte Multi-Especialidad",
+          "description": "Diseñado para clínicas que manejan múltiples especialidades (peso, dental, estética) con enrutamiento basado en especialidad y acceso filtrado a pacientes."
+        }
       ]
     }
   }
