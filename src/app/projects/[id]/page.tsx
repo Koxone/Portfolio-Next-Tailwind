@@ -45,9 +45,19 @@ export default function ProjectPage() {
       />
 
       <main className="container mx-auto max-w-300 space-y-16 px-6 py-10">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="space-y-12 lg:col-span-2">
+            {/* Sidebar */}
+            <ProjectSidebar
+              technologies={project.technologies}
+              url={project.url}
+              urlGit={project.urlGit}
+            />
+
+            {/* Overview */}
             <OverviewCard overview={t(project.overview)} tOverview={t('tOverview')} />
+
+            {/* Features */}
             <FeaturesGrid
               tFeatures={t(project.features)}
               projectFeatures={t(project.projectFeatures, {
@@ -55,11 +65,6 @@ export default function ProjectPage() {
               })}
             />
           </div>
-          <ProjectSidebar
-            technologies={project.technologies}
-            url={project.url}
-            urlGit={project.urlGit}
-          />
         </div>
       </main>
     </div>
