@@ -86,7 +86,7 @@
   "tOverview": "Descripcion del Proyecto",
   "projects": {
     "fws": {
-      "title": "Ecommerce Next.js, Shopify Headless API",
+      "title": "FitWorld Shop",
       "description": "Tienda en línea moderna y responsiva creada con Next.js, Tailwind CSS y Shopify Storefront API. Incluye UI limpia, navegación avanzada de productos, reseñas con imágenes, wishlist con Firebase y soporte PWA con uso offline e instalación en iOS.",
       "updated": "Actualizado Agosto 2025",
       "date": "Julio 2025",
@@ -199,7 +199,7 @@
 
     "threadhive": {
       "id": "threadhive",
-      "title": "ThreadHive, Plataforma Comunitaria",
+      "title": "ThreadHive",
       "description": "Una plataforma moderna de discusión impulsada por la comunidad, construida con Next.js, Tailwind CSS, MongoDB, autenticación JWT y Redux. Incluye comentarios en hilos con conectores visuales, votaciones en tiempo real, subcomunidades con controles de privacidad, publicaciones con galerías multimedia y una interfaz adaptable potenciada por animaciones de Framer Motion.",
       "updated": "Actualizado en septiembre de 2025",
       "date": "Septiembre de 2025",
@@ -242,6 +242,29 @@
         }
       ],
       "overview": "ThreadHive es una plataforma de discusión moderna, totalmente adaptable y orientada a la comunidad, construida con Next.js 15, Tailwind CSS v4, MongoDB y autenticación JWT. Está diseñada para escalabilidad, rendimiento y uso en producción real, ofreciendo comentarios en hilos con conectores visuales, votaciones en tiempo real, subcomunidades con controles de privacidad y publicaciones multimedia con galerías de imágenes. El proyecto incluye internacionalización (i18n), transiciones suaves con Framer Motion, soporte offline y un diseño optimizado para todos los dispositivos. Sigue una arquitectura modular limpia con SSR para optimización SEO y está desplegado en Vercel. Es una plantilla de plataforma social lista para producción y de código abierto para construir comunidades en línea escalables con Next.js, MongoDB y JWT, siguiendo las mejores prácticas de rendimiento, UX y mantenibilidad."
+    },
+
+    "beehealth": {
+      "title": "BeeHealth",
+      "description": "Sistema integral de gestión para clínicas multi-especialidad con manejo de pacientes, citas, inventario, contabilidad y flujos clínicos.",
+      "updated": "Actualizado",
+      "date": "Diciembre 2025",
+      "type": "Aplicación Web SaaS",
+      "status": "En desarrollo activo",
+      "statusProject": "Beta privada",
+      "overview": "BeeHealth es un sistema de gestión médica diseñado para clínicas que manejan múltiples especialidades como peso, dental y estética. Ofrece control completo de expedientes clínicos, sistema de citas, inventario con trazabilidad, contabilidad integrada y acceso basado en roles para diferentes tipos de usuarios.",
+      "features": "Gestión de pacientes • Expedientes clínicos digitales • Sistema de citas • Control de inventario • Contabilidad integrada • Timeline de paciente • Asignación de dietas y rutinas • Sistema de notificaciones • Control de acceso por roles • PWA compatible",
+      "projectFeatures": [
+        "Dashboard personalizado por rol (Admin, Doctor, Recepción, Paciente)",
+        "Expedientes clínicos con historial completo y timeline visual",
+        "Sistema de citas con calendario y recordatorios",
+        "Inventario con transacciones y alertas de stock",
+        "Módulo de peso con seguimiento de progreso y gráficas",
+        "Asignación de planes de dieta y ejercicio",
+        "Sistema de notificaciones en tiempo real",
+        "Reportes y analíticas por especialidad",
+        "Multi-clínica / Multi-tenant ready"
+      ]
     }
   }
 }

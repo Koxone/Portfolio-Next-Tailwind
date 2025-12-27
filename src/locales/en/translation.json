@@ -87,7 +87,7 @@
   "projects": {
     "fws": {
       "id": "fws",
-      "title": "Ecommerce Next.js, Shopify Headless API",
+      "title": "FitWorld Shop",
       "description": "Modern, responsive e-commerce storefront built with Next.js, Tailwind CSS, and Shopify Storefront API. Features clean UI, advanced product browsing, customer reviews with images, wishlist via Firebase, and scalable PWA support with offline use and iOS 'Add to Home Screen' install.",
       "updated": "Updated August 2025",
       "date": "July 2025",
@@ -200,7 +200,7 @@
 
     "threadhive": {
       "id": "threadhive",
-      "title": "ThreadHive, Community Platform",
+      "title": "ThreadHive",
       "description": "A next-generation community platform combining social discussion with gamification and complete brand identity. ThreadHive demonstrates end-to-end product development from strategic naming and visual design to full-stack implementation. Features include: WoolPath achievement system with 200+ custom-designed badges, NSFW content detection using TensorFlow.js, real-time notifications via Firebase, rich text editing with Tiptap, comprehensive moderation tools with role-based access, and privacy-controlled communities. Tech stack: Next.js 15, React 19, MongoDB, Redux + Zustand + TanStack Query for state management, JWT authentication, and Vercel deployment. Includes complete custom branding (mascot design system, naming strategy, visual identity) conceptualized and executed alongside technical development.",
       "updated": "Updated September 2025",
       "date": "September 2025",
@@ -243,6 +243,29 @@
         }
       ],
       "overview": "ThreadHive is a next-generation community platform that reimagines social discussion through comprehensive gamification and unique brand identity. It demonstrates complete end-to-end product development—from strategic branding and visual design to full-stack implementation and production deployment. The platform combines modern social features with an advanced achievement system (WoolPath) featuring 200+ custom-designed badges across 6 rarity tiers, creating engaging user progression and retention. Technical highlights include client-side NSFW content detection using TensorFlow.js, real-time notifications via Firebase Firestore, rich text editing with Tiptap, and sophisticated moderation tools with granular role-based access control (owner, moderator, member, banned, shadowbanned). Built with Next.js 15, React 19, Tailwind CSS v4, and MongoDB Atlas, ThreadHive implements distributed state management combining Redux (authentication), Zustand (UI state), and TanStack Query (server state caching). Features include threaded discussions with visual connectors, multi-image post galleries with Vercel Blob storage, privacy-controlled SubHive communities (public, private, NSFW, official), JWT authentication with refresh tokens, and internationalization support (English/Spanish). The project includes complete custom branding—strategic naming (Thread + Hive), mascot design system with multiple contextual variations, and cohesive visual identity across all platform touchpoints. Optimized for performance with SSR, responsive design for all devices, smooth transitions via Framer Motion, and deployed on Vercel with CI/CD integration. A production-ready demonstration of modern full-stack development, product thinking, and design execution."
+    },
+
+    "beehealth": {
+      "title": "BeeHealth",
+      "description": "Comprehensive management system for multi-specialty clinics with patient management, appointments, inventory, accounting, and clinical workflows.",
+      "updated": "Updated",
+      "date": "December 2025",
+      "type": "SaaS Web Application",
+      "status": "In active development",
+      "statusProject": "Private beta",
+      "overview": "BeeHealth is a medical management system designed for clinics handling multiple specialties such as weight management, dental, and aesthetics. It offers complete control of clinical records, appointment scheduling, inventory with traceability, integrated accounting, and role-based access for different user types.",
+      "features": "Patient management • Digital clinical records • Appointment system • Inventory control • Integrated accounting • Patient timeline • Diet and workout assignment • Notification system • Role-based access control • PWA compatible",
+      "projectFeatures": [
+        "Role-based personalized dashboard (Admin, Doctor, Reception, Patient)",
+        "Clinical records with complete history and visual timeline",
+        "Appointment system with calendar and reminders",
+        "Inventory with transactions and stock alerts",
+        "Weight module with progress tracking and charts",
+        "Diet and exercise plan assignment",
+        "Real-time notification system",
+        "Reports and analytics by specialty",
+        "Multi-clinic / Multi-tenant ready"
+      ]
     }
   }
 }
