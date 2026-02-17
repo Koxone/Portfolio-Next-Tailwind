@@ -70,7 +70,7 @@
       "titleKey": "projects.beehealth.title",
       "descriptionKey": "projects.beehealth.description",
       "url": "https://demo-beehealth.vercel.app/",
-      "urlGit": "https://github.com/Koxone/DEMO-BeeHealth-Typescript-Next-Tailwind-MongoDB-JWT",
+      "urlGit": "https://github.com/Koxone/DEMO-BeeHealth-Typescript-Next-Tailwind-MongoDB-JWT/tree/demo-ddd",
       "logoSrc": "/beehealth/logo.png",
       "videoSrc": "/beehealth/beehealth.mp4",
       "featured": true,
